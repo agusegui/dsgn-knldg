@@ -1,0 +1,4427 @@
+[
+  {
+    "id": "dm-serif-display--dm-sans",
+    "heading": "DM Serif Display",
+    "body": "DM Sans",
+    "category": "Superfamily Harmony",
+    "contrast": "Medium",
+    "mood": [
+      "polished",
+      "contemporary",
+      "confident"
+    ],
+    "use": [
+      "brand systems",
+      "editorial",
+      "product UI"
+    ],
+    "avoid": [
+      "contexts needing extreme display drama"
+    ],
+    "logic": "Designed together by Colophon Foundry. They share identical x-heights, proportions, and overall rhythm. The serif/sans contrast is built in by design — zero guesswork, maximum cohesion.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": "DM Sans reads lighter than expected at 400 — prefer 450–500 for body. Heading works at unusually small display sizes (28px+) due to generous proportions."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "superfamily",
+      "serif+sans",
+      "medium-contrast",
+      "screen-optimized"
+    ],
+    "headingClass": "transitional-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "playfair-display--source-sans-3",
+    "heading": "Playfair Display",
+    "body": "Source Sans 3",
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "authoritative",
+      "elegant",
+      "editorial"
+    ],
+    "use": [
+      "magazines",
+      "longform editorial",
+      "luxury brands"
+    ],
+    "avoid": [
+      "UI-heavy interfaces",
+      "small body text below 14px"
+    ],
+    "logic": "High-contrast transitional display serif meets Adobe's humanist sans-serif. Playfair's sharp, unbracketed serifs and dramatic thick-thin contrast create authority in headlines. Source Sans's open apertures provide excellent readability at text sizes. Both share generous x-heights.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Playfair's thin strokes need sufficient size — avoid below 28px for headings. Source Sans 3 has excellent weight range; use 300 for intro paragraphs, 400 for body."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "high-contrast",
+      "editorial",
+      "print-inspired",
+      "transitional-serif"
+    ],
+    "headingClass": "transitional-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "fraunces--outfit",
+    "heading": "Fraunces",
+    "body": "Outfit",
+    "category": "Tension & Character",
+    "contrast": "Very High",
+    "mood": [
+      "expressive",
+      "warm",
+      "characterful"
+    ],
+    "use": [
+      "creative agencies",
+      "cultural institutions",
+      "food & beverage"
+    ],
+    "avoid": [
+      "corporate or formal contexts",
+      "fintech",
+      "legal"
+    ],
+    "logic": "Fraunces is a 'wonky' old-style display face with optical size variation — its shapes become more expressive at larger sizes. Outfit is a clean geometric sans with even proportions. The tension between Fraunces' personality and Outfit's calm creates energy.",
+    "typesetting": {
+      "headingSize": "36–96px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Use font-variation-settings: 'opsz' 144 at display sizes for maximum Fraunces character. Outfit is neutral enough to disappear into body text."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "very-high-contrast",
+      "variable-font",
+      "expressive",
+      "old-style-serif"
+    ],
+    "headingClass": "contemporary-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "cormorant-garamond--lato",
+    "heading": "Cormorant Garamond",
+    "body": "Lato",
+    "category": "Calligraphic Echo",
+    "contrast": "High",
+    "mood": [
+      "refined",
+      "literary",
+      "graceful"
+    ],
+    "use": [
+      "publishing",
+      "arts & culture",
+      "wedding & event design"
+    ],
+    "avoid": [
+      "body text below 15px",
+      "dark mode (thin strokes disappear)"
+    ],
+    "logic": "Cormorant is a display Garamond pushed to extremes — sharper serifs, higher contrast, more dramatic curves. Lato's warm, semi-rounded humanist details echo calligraphic origins. Both root in humanist tradition at different formality levels.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.7–1.8",
+      "notes": "Cormorant needs generous leading — at body size never below 1.7. The weight 600 or 700 works better than 400 for headings (400 is almost too light). Lato 300 is excellent for intro text."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "high-contrast",
+      "calligraphic",
+      "old-style-serif",
+      "humanist-sans",
+      "literary"
+    ],
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "bodoni-moda--josefin-sans",
+    "heading": "Bodoni Moda",
+    "body": "Josefin Sans",
+    "category": "Art Deco Echo",
+    "contrast": "Very High",
+    "mood": [
+      "glamorous",
+      "geometric",
+      "sophisticated"
+    ],
+    "use": [
+      "fashion",
+      "luxury retail",
+      "gallery exhibitions",
+      "event branding"
+    ],
+    "avoid": [
+      "body text — never use Bodoni below 28px",
+      "low-contrast backgrounds",
+      "small screens without testing"
+    ],
+    "logic": "Bodoni Moda is a fashion-world Didone — extreme thick-thin contrast. Josefin Sans has geometric, vintage proportions inspired by 1920s Scandinavian design. Both share an era-adjacent elegance.",
+    "typesetting": {
+      "headingSize": "40–120px",
+      "bodySize": "13–15px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Josefin's geometric character strengthens with size. At 13px body text, add 0.02em tracking. For the Bodoni heading, letter-spacing 0.04–0.06em at display sizes feels more editorial."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "very-high-contrast",
+      "didone",
+      "geometric-sans",
+      "fashion",
+      "art-deco"
+    ],
+    "headingClass": "rational-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "vollkorn--nunito-sans",
+    "heading": "Vollkorn",
+    "body": "Nunito Sans",
+    "category": "Warm & Grounded",
+    "contrast": "Low-Medium",
+    "mood": [
+      "approachable",
+      "trustworthy",
+      "warm"
+    ],
+    "use": [
+      "education",
+      "nonprofits",
+      "health & wellness",
+      "community platforms"
+    ],
+    "avoid": [
+      "luxury or high-fashion contexts",
+      "contexts requiring sharp authority"
+    ],
+    "logic": "Vollkorn (German for 'wholegrain') is a hearty, warm text serif with robust details. Nunito Sans has rounded terminals and open forms. Together they create 'friendly authority' — credible but never cold.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Vollkorn's weight 600 is the sweet spot for headings — 700 gets a bit heavy. Nunito Sans 400 body text is very readable; the rounded terminals prevent fatigue in long reading sessions."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "low-medium-contrast",
+      "warm",
+      "humanist",
+      "accessible",
+      "editorial"
+    ],
+    "headingClass": "humanist-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "bitter--epilogue",
+    "heading": "Bitter",
+    "body": "Epilogue",
+    "category": "Digital-Native",
+    "contrast": "Medium",
+    "mood": [
+      "modern",
+      "functional",
+      "approachable-tech"
+    ],
+    "use": [
+      "SaaS products",
+      "blogs",
+      "developer docs",
+      "tech media"
+    ],
+    "avoid": [
+      "luxury or fashion contexts",
+      "high-formality print work"
+    ],
+    "logic": "Both designed for screen from the ground up. Bitter is a slab serif with wedge serifs that perform well at all resolutions. Epilogue is a contemporary sans with a slightly condensed character. Slab + sans creates a less conventional but more modern contrast.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Bitter 700 or 800 at heading sizes has excellent presence. Epilogue has a slightly condensed feel — works well in information-dense layouts."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "slab-serif+sans",
+      "medium-contrast",
+      "screen-optimized",
+      "tech",
+      "digital"
+    ],
+    "headingClass": "contemporary-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "crimson-pro--manrope",
+    "heading": "Crimson Pro",
+    "body": "Manrope",
+    "category": "Scholarly Elegance",
+    "contrast": "Medium-High",
+    "mood": [
+      "intellectual",
+      "refined",
+      "modern-classical"
+    ],
+    "use": [
+      "academic journals",
+      "think tanks",
+      "cultural criticism",
+      "museums"
+    ],
+    "avoid": [
+      "casual consumer apps",
+      "food & beverage branding"
+    ],
+    "logic": "Crimson Pro is an old-style text serif inspired by Garamond and Minion — refined and deeply legible. Manrope is a geometric-grotesque with open counters. The pairing balances gravitas with clarity.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Crimson Pro 600 or 700 for headings. At body size (15px), use 400 with 1.75 leading — Crimson is excellent text type. Manrope 400 for body, 500 for UI labels."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "medium-high-contrast",
+      "old-style-serif",
+      "geometric-grotesque",
+      "scholarly"
+    ],
+    "headingClass": "humanist-serif",
+    "bodyClass": "neo-grotesque-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "lora--fira-sans",
+    "heading": "Lora",
+    "body": "Fira Sans",
+    "category": "Transitional Warmth",
+    "contrast": "Medium",
+    "mood": [
+      "warm",
+      "narrative",
+      "inviting"
+    ],
+    "use": [
+      "blogs",
+      "newsletters",
+      "narrative journalism",
+      "travel writing"
+    ],
+    "avoid": [
+      "high-formality institutional work"
+    ],
+    "logic": "Lora has calligraphic roots with modern proportions — a transitional serif with warmth baked in. Fira Sans (born from Mozilla's design language) is humanist with a slightly technical but warm finish. Both are warm typefaces — matched by temperament, contrasted by form.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Lora at 700 for headings. Fira Sans 300 for introductory text, 400 for body — the 300 weight is unusually readable."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "medium-contrast",
+      "warm",
+      "humanist-sans",
+      "narrative",
+      "transitional-serif"
+    ],
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "eczar--work-sans",
+    "heading": "Eczar",
+    "body": "Work Sans",
+    "category": "Cross-Cultural",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "distinctive",
+      "globally-minded"
+    ],
+    "use": [
+      "cultural publications",
+      "food brands",
+      "international organizations"
+    ],
+    "avoid": [
+      "contexts that need typographic neutrality"
+    ],
+    "logic": "Eczar brings Devanagari design sensibility into Latin letterforms — a high-contrast serif with unconventional proportions. Work Sans is a neutral geometric grotesque that creates space for Eczar's personality to command attention.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Eczar 700 or 800 at display sizes is striking. Work Sans is best at 400 for body — avoid 300 which gets too light. The contrast between Eczar's distinctive letterforms and Work Sans neutrality is the whole point."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "high-contrast",
+      "devanagari-influenced",
+      "geometric-grotesque",
+      "cross-cultural"
+    ],
+    "headingClass": "humanist-serif",
+    "bodyClass": "gothic-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "sora--spectral",
+    "heading": "Sora",
+    "body": "Spectral",
+    "category": "Geometric Precision",
+    "contrast": "Medium",
+    "mood": [
+      "precise",
+      "modern-editorial",
+      "structured"
+    ],
+    "use": [
+      "tech editorials",
+      "design publications",
+      "architecture firms"
+    ],
+    "avoid": [
+      "warm or emotional contexts",
+      "casual consumer products"
+    ],
+    "logic": "An inversion of the typical serif-heading/sans-body pattern. Sora is a geometric sans with squared forms — clean and technical. Spectral (by Production Type) is a text-optimized serif with sharp details. Using sans for headings and serif for body follows a longstanding editorial convention, creating a distinctly modern editorial feel.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Sora 700 for headings, 400 for subheadings. Spectral 400 for body — it was designed for screen and holds up well at 14px. The inversion (sans heading, serif body) is intentional and should be maintained."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "sans+serif",
+      "medium-contrast",
+      "inverted-pattern",
+      "geometric-sans",
+      "screen-optimized",
+      "editorial"
+    ],
+    "headingClass": "geometric-sans",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "high"
+  },
+  {
+    "id": "libre-baskerville--karla",
+    "heading": "Libre Baskerville",
+    "body": "Karla",
+    "category": "Humanist Continuum",
+    "contrast": "Medium-High",
+    "mood": [
+      "editorial",
+      "literate",
+      "modern-traditional"
+    ],
+    "use": [
+      "literary magazines",
+      "opinion platforms",
+      "book marketing"
+    ],
+    "avoid": [
+      "tech products",
+      "high-fashion"
+    ],
+    "logic": "Baskerville is the quintessential transitional serif. Libre Baskerville optimizes it for web with larger x-height. Karla is a grotesque with personality: slightly quirky letter shapes that give warmth without compromising neutrality. Tradition in the serif, a wink of personality in the sans.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Libre Baskerville has a large x-height and reads slightly 'bigger' than its point size — account for this in scale. Karla 400 for body is very readable; 500 for UI labels."
+    },
+    "sources": [
+      "personal"
+    ],
+    "tags": [
+      "serif+sans",
+      "medium-high-contrast",
+      "transitional-serif",
+      "grotesque",
+      "editorial",
+      "literary"
+    ],
+    "headingClass": "transitional-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "poppins--hind",
+    "heading": "Poppins",
+    "headingWeight": 600,
+    "body": "Hind",
+    "bodyWeight": 400,
+    "category": "Clean & Functional",
+    "contrast": "Low-Medium",
+    "mood": [
+      "clean",
+      "modern",
+      "readable"
+    ],
+    "use": [
+      "web apps",
+      "product UI",
+      "dashboards"
+    ],
+    "avoid": [],
+    "logic": "Two Indian-origin fonts with similar proportions. Poppins' geometric roundness anchors Hind's slightly condensed letterforms. Both are optimised for screen legibility.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.7",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "low-medium-contrast",
+      "screen-optimized"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "available"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "outfit--switzer",
+    "heading": "Outfit",
+    "headingWeight": 600,
+    "body": "Switzer",
+    "bodyWeight": 300,
+    "category": "Contemporary Minimal",
+    "contrast": "Medium",
+    "mood": [
+      "fresh",
+      "minimal",
+      "confident"
+    ],
+    "use": [
+      "startups",
+      "SaaS",
+      "brand identity"
+    ],
+    "avoid": [],
+    "logic": "Outfit's clean geometry pairs with Switzer's slightly quirky grotesque character. The light body weight creates elegant contrast against the semi-bold heading.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.7",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "medium-contrast",
+      "geometric"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "rajdhani--sentient",
+    "heading": "Rajdhani",
+    "headingWeight": 700,
+    "body": "Sentient",
+    "bodyWeight": 400,
+    "category": "Cross-Cultural Modern",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "global",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "cultural brands",
+      "publications"
+    ],
+    "avoid": [],
+    "logic": "Rajdhani's condensed Devanagari-influenced Latin forms create strong headlines. Sentient's contemporary serif body provides a classic-meets-modern counterpoint.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed-sans+serif",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "archivo--ranade",
+    "heading": "Archivo",
+    "headingWeight": 600,
+    "body": "Ranade",
+    "bodyWeight": 300,
+    "category": "Grotesk Duo",
+    "contrast": "Medium",
+    "mood": [
+      "neutral",
+      "professional",
+      "modern"
+    ],
+    "use": [
+      "corporate",
+      "fintech",
+      "productivity tools"
+    ],
+    "avoid": [],
+    "logic": "Archivo's confident grotesk forms pair with Ranade's lighter grotesque for a clean, professional duo. The weight spread creates hierarchy without drama.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "medium-contrast",
+      "grotesk"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "satoshi--erode",
+    "heading": "Satoshi",
+    "headingWeight": 700,
+    "body": "Erode",
+    "bodyWeight": 400,
+    "category": "New Wave Serif",
+    "contrast": "High",
+    "mood": [
+      "expressive",
+      "editorial",
+      "contemporary"
+    ],
+    "use": [
+      "editorial",
+      "branding",
+      "culture"
+    ],
+    "avoid": [],
+    "logic": "Satoshi's bold geometric sans pairs with Erode's distinctive high-contrast serif. A modern inversion pairing — sans leads, serif grounds.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+serif",
+      "high-contrast",
+      "modern"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "recia--supreme",
+    "heading": "Recia",
+    "headingWeight": 500,
+    "body": "Supreme",
+    "bodyWeight": 400,
+    "category": "Serif + Grotesque",
+    "contrast": "Medium-High",
+    "mood": [
+      "refined",
+      "contemporary",
+      "versatile"
+    ],
+    "use": [
+      "editorial",
+      "brand identity",
+      "publications"
+    ],
+    "avoid": [],
+    "logic": "Recia's medium-contrast serif personality meets Supreme's clean grotesque neutrality. A reliable editorial pairing.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+sans",
+      "medium-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "roundo--pilcrow-rounded",
+    "heading": "Roundo",
+    "headingWeight": 500,
+    "body": "Pilcrow Rounded",
+    "bodyWeight": 400,
+    "category": "Rounded Harmony",
+    "contrast": "Low",
+    "mood": [
+      "friendly",
+      "approachable",
+      "playful"
+    ],
+    "use": [
+      "consumer apps",
+      "children's products",
+      "wellness brands"
+    ],
+    "avoid": [
+      "formal or luxury contexts"
+    ],
+    "logic": "Two rounded sans faces that share circular terminal details. A superfamily-like harmony between two Fontshare originals.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "low-contrast",
+      "rounded",
+      "superfamily-like"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "pilcrow-rounded--sentient",
+    "heading": "Pilcrow Rounded",
+    "headingWeight": 700,
+    "body": "Sentient",
+    "bodyWeight": 300,
+    "category": "Rounded + Serif",
+    "contrast": "High",
+    "mood": [
+      "warm",
+      "editorial",
+      "modern"
+    ],
+    "use": [
+      "editorial",
+      "culture",
+      "brand publishing"
+    ],
+    "avoid": [],
+    "logic": "The playful rounded bold display plays against Sentient's refined serif lightness. The contrast in personality and weight is deliberate.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "rounded-sans+serif",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "bevellier--satoshi",
+    "heading": "Bevellier",
+    "headingWeight": 500,
+    "body": "Satoshi",
+    "bodyWeight": 400,
+    "category": "Display + Neutral",
+    "contrast": "Medium-High",
+    "mood": [
+      "distinctive",
+      "clean",
+      "confident"
+    ],
+    "use": [
+      "branding",
+      "editorial",
+      "digital products"
+    ],
+    "avoid": [],
+    "logic": "Bevellier's distinctive display character grounds against Satoshi's exceptionally neutral geometric sans.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+sans",
+      "medium-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "oswald--sentient",
+    "heading": "Oswald",
+    "headingWeight": 700,
+    "body": "Sentient",
+    "bodyWeight": 300,
+    "category": "Condensed + Serif",
+    "contrast": "Very High",
+    "mood": [
+      "strong",
+      "editorial",
+      "impactful"
+    ],
+    "use": [
+      "news",
+      "sports",
+      "editorial",
+      "posters"
+    ],
+    "avoid": [
+      "soft or friendly contexts"
+    ],
+    "logic": "Oswald's bold condensed sans creates maximum impact in headlines. Sentient's delicate light serif body creates elegant, readable contrast at text sizes.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": "Oswald is a condensed face — use generous font-size to compensate for narrow width."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed-sans+serif",
+      "very-high-contrast",
+      "editorial"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "bebas-neue--zodiak",
+    "heading": "Bebas Neue",
+    "headingWeight": 400,
+    "body": "Zodiak",
+    "bodyWeight": 400,
+    "category": "Display + Variable Serif",
+    "contrast": "Very High",
+    "mood": [
+      "bold",
+      "powerful",
+      "editorial"
+    ],
+    "use": [
+      "posters",
+      "sports",
+      "music",
+      "headlines"
+    ],
+    "avoid": [
+      "body text — Bebas is display only"
+    ],
+    "logic": "Bebas Neue all-caps display creates maximum visual weight. Zodiak's variable serif offers refined typographic contrast at body size.",
+    "typesetting": {
+      "headingSize": "48–120px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65",
+      "notes": "Bebas Neue is all-caps only — works best at large sizes."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+serif",
+      "very-high-contrast",
+      "all-caps-heading"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "zina--recia",
+    "heading": "Zina",
+    "headingWeight": 400,
+    "body": "Recia",
+    "bodyWeight": 400,
+    "category": "Serif Duo",
+    "contrast": "Medium",
+    "mood": [
+      "elegant",
+      "literary",
+      "refined"
+    ],
+    "use": [
+      "literary publishing",
+      "luxury brands",
+      "culture"
+    ],
+    "avoid": [],
+    "logic": "Two Fontshare serifs with complementary personalities — Zina's expressive display forms contrast with Recia's text-optimised regularity.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+serif",
+      "medium-contrast",
+      "literary"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "boska--switzer",
+    "heading": "Boska",
+    "headingWeight": 500,
+    "body": "Switzer",
+    "bodyWeight": 400,
+    "category": "Transitional + Modern Sans",
+    "contrast": "High",
+    "mood": [
+      "sophisticated",
+      "contemporary",
+      "editorial"
+    ],
+    "use": [
+      "brand identity",
+      "editorial",
+      "luxury digital"
+    ],
+    "avoid": [],
+    "logic": "Boska's high-contrast display serif personality contrasts Switzer's grounded grotesque. Editorial power through form contrast.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "boska-light--general-sans",
+    "heading": "Boska",
+    "headingWeight": 300,
+    "body": "General Sans",
+    "bodyWeight": 300,
+    "category": "Light Pairing",
+    "contrast": "Low",
+    "mood": [
+      "refined",
+      "minimal",
+      "airy"
+    ],
+    "use": [
+      "luxury brands",
+      "fashion",
+      "high-end editorial"
+    ],
+    "avoid": [
+      "contexts needing strong hierarchy"
+    ],
+    "logic": "Boska Light's delicate display serif forms and General Sans Light's open grotesque create an intentionally low-contrast, refined pairing — all about texture and nuance.",
+    "typesetting": {
+      "headingSize": "40–80px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.75",
+      "notes": "Both are light weights — rely on size difference for hierarchy, not weight."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+sans",
+      "low-contrast",
+      "light-pairing",
+      "luxury"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "pramukh-rounded--poppins",
+    "heading": "Pramukh Rounded",
+    "headingWeight": 700,
+    "body": "Poppins",
+    "bodyWeight": 300,
+    "category": "Rounded Display + Geometric",
+    "contrast": "High",
+    "mood": [
+      "playful",
+      "bold",
+      "friendly"
+    ],
+    "use": [
+      "consumer brands",
+      "education",
+      "apps"
+    ],
+    "avoid": [],
+    "logic": "Pramukh Rounded's bold rounded display character contrasts with Poppins Light's clean geometric restraint. Energetic but approachable.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "rounded+geometric-sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "amulya--synonym",
+    "heading": "Amulya",
+    "headingWeight": 700,
+    "body": "Synonym",
+    "bodyWeight": 400,
+    "category": "Bold Sans Duo",
+    "contrast": "High",
+    "mood": [
+      "strong",
+      "contemporary",
+      "versatile"
+    ],
+    "use": [
+      "tech brands",
+      "editorial",
+      "product"
+    ],
+    "avoid": [],
+    "logic": "Amulya's bold expressive sans provides headline power. Synonym's neutral grotesque offers clean, readable body text contrast.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "chubbo--supreme",
+    "heading": "Chubbo",
+    "headingWeight": 700,
+    "body": "Supreme",
+    "bodyWeight": 400,
+    "category": "Playful + Neutral",
+    "contrast": "High",
+    "mood": [
+      "playful",
+      "casual",
+      "energetic"
+    ],
+    "use": [
+      "consumer apps",
+      "youth brands",
+      "food & beverage"
+    ],
+    "avoid": [
+      "formal or luxury contexts"
+    ],
+    "logic": "Chubbo's chunky display personality gets grounded by Supreme's clean, no-nonsense grotesque body. Maximum personality in headings, maximum readability in text.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+sans",
+      "high-contrast",
+      "playful"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "bebas-neue--nunito",
+    "heading": "Bebas Neue",
+    "headingWeight": 400,
+    "body": "Nunito",
+    "bodyWeight": 400,
+    "category": "Impact + Rounded",
+    "contrast": "Very High",
+    "mood": [
+      "bold",
+      "friendly",
+      "accessible"
+    ],
+    "use": [
+      "headlines",
+      "community platforms",
+      "consumer apps",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Bebas Neue's geometric all-caps impact pairs with Nunito's warm rounded sans. The extreme contrast in personality — stark vs. friendly — creates memorable hierarchy.",
+    "typesetting": {
+      "headingSize": "48–120px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Bebas all-caps only. Nunito's rounded terminals soften the overall feeling."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+rounded-sans",
+      "very-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "available"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "excon--ranade",
+    "heading": "Excon",
+    "headingWeight": 500,
+    "body": "Ranade",
+    "bodyWeight": 300,
+    "category": "Condensed Duo",
+    "contrast": "Medium",
+    "mood": [
+      "compact",
+      "modern",
+      "functional"
+    ],
+    "use": [
+      "dashboards",
+      "data-heavy UI",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Two condensed faces creating an efficient, space-conscious pairing. Good for information-dense layouts.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "13–15px",
+      "lineHeight": "1.6",
+      "notes": "Both condensed — use carefully at small sizes."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed+condensed",
+      "medium-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "tanker--bespoke-serif",
+    "heading": "Tanker",
+    "headingWeight": 400,
+    "body": "Bespoke Serif",
+    "bodyWeight": 400,
+    "category": "Display + Bespoke Serif",
+    "contrast": "Very High",
+    "mood": [
+      "bold",
+      "expressive",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "posters",
+      "brand campaigns"
+    ],
+    "avoid": [],
+    "logic": "Tanker's ultra-heavy display forms contrast with Bespoke Serif's refined, warm text serif. Maximum personality contrast.",
+    "typesetting": {
+      "headingSize": "48–120px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": "Tanker is a heavy display face — use at large sizes."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "heavy-display+serif",
+      "very-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "bespoke-stencil--supreme",
+    "heading": "Bespoke Stencil",
+    "headingWeight": 700,
+    "body": "Supreme",
+    "bodyWeight": 400,
+    "category": "Stencil + Grotesque",
+    "contrast": "High",
+    "mood": [
+      "gritty",
+      "industrial",
+      "editorial"
+    ],
+    "use": [
+      "fashion",
+      "music",
+      "posters",
+      "street culture brands"
+    ],
+    "avoid": [
+      "soft or corporate contexts"
+    ],
+    "logic": "Bespoke Stencil's industrial character contrasts sharply with Supreme's clean grotesk. The stencil personality dominates; Supreme stays invisible.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+sans",
+      "high-contrast",
+      "stencil",
+      "editorial"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "trench-slab--general-sans",
+    "heading": "Trench Slab",
+    "headingWeight": 500,
+    "body": "General Sans",
+    "bodyWeight": 400,
+    "category": "Slab + Grotesque",
+    "contrast": "Medium",
+    "mood": [
+      "sturdy",
+      "reliable",
+      "editorial"
+    ],
+    "use": [
+      "news",
+      "tech editorial",
+      "SaaS"
+    ],
+    "avoid": [],
+    "logic": "Trench Slab's robust slab serifs pair with General Sans's clean grotesque. A practical, readable combination.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "slab+sans",
+      "medium-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "contemporary-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "general-sans--gambetta",
+    "heading": "General Sans",
+    "headingWeight": 600,
+    "body": "Gambetta",
+    "bodyWeight": 400,
+    "category": "Sans + Serif",
+    "contrast": "Medium-High",
+    "mood": [
+      "balanced",
+      "editorial",
+      "contemporary"
+    ],
+    "use": [
+      "editorial",
+      "brand",
+      "digital products"
+    ],
+    "avoid": [],
+    "logic": "General Sans Semibold provides a clean, neutral heading while Gambetta's serif body adds typographic warmth and reading comfort.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+serif",
+      "medium-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "array--khand",
+    "heading": "Array",
+    "headingWeight": 400,
+    "body": "Khand",
+    "bodyWeight": 400,
+    "category": "Geometric Duo",
+    "contrast": "Medium",
+    "mood": [
+      "technical",
+      "structured",
+      "precise"
+    ],
+    "use": [
+      "developer tools",
+      "tech UI",
+      "data products"
+    ],
+    "avoid": [],
+    "logic": "Array's technical geometric character pairs with Khand's condensed, structured grotesque. A pairing built for information density.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "13–15px",
+      "lineHeight": "1.55–1.65",
+      "notes": "Both have condensed/structured character — suitable for dense layouts."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "geometric+condensed",
+      "medium-contrast",
+      "technical"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "gothic-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "pilcrow-rounded-semibold--hind",
+    "heading": "Pilcrow Rounded",
+    "headingWeight": 600,
+    "body": "Hind",
+    "bodyWeight": 400,
+    "category": "Rounded + Humanist",
+    "contrast": "Medium",
+    "mood": [
+      "friendly",
+      "accessible",
+      "warm"
+    ],
+    "use": [
+      "education",
+      "health",
+      "community"
+    ],
+    "avoid": [],
+    "logic": "Pilcrow Rounded's approachable display personality grounds into Hind's practical, screen-optimised humanist sans.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–15px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "rounded+humanist-sans",
+      "medium-contrast",
+      "accessible"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "khand--hind",
+    "heading": "Khand",
+    "headingWeight": 700,
+    "body": "Hind",
+    "bodyWeight": 400,
+    "category": "Indian Type Duo",
+    "contrast": "Medium-High",
+    "mood": [
+      "structured",
+      "reliable",
+      "efficient"
+    ],
+    "use": [
+      "apps",
+      "editorial",
+      "UI systems"
+    ],
+    "avoid": [],
+    "logic": "Two Indian Type Foundry (ITF) faces. Khand's condensed bold provides compact headline power; Hind's regular weight delivers optimised reading at smaller sizes. A genuine superfamily pairing.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "14–15px",
+      "lineHeight": "1.6",
+      "notes": "Both from ITF — share proportional harmony."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "sans+sans",
+      "medium-high-contrast",
+      "superfamily",
+      "screen-optimized"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "available"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "general-sans--general-sans",
+    "heading": "General Sans",
+    "headingWeight": 600,
+    "body": "General Sans",
+    "bodyWeight": 400,
+    "category": "Superfamily",
+    "contrast": "Low-Medium",
+    "mood": [
+      "clean",
+      "minimal",
+      "systematic"
+    ],
+    "use": [
+      "design systems",
+      "UI",
+      "SaaS"
+    ],
+    "avoid": [
+      "contexts needing personality or warmth"
+    ],
+    "logic": "Single-family pairing using weight contrast alone. General Sans is versatile enough that Semibold/Regular creates clean, functional hierarchy without switching faces.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": "Rely entirely on weight + size for hierarchy. Works well in dense UI."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "superfamily",
+      "low-medium-contrast",
+      "single-family"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "technor--supreme",
+    "heading": "Technor",
+    "headingWeight": 600,
+    "body": "Supreme",
+    "bodyWeight": 400,
+    "category": "Tech Display + Neutral",
+    "contrast": "High",
+    "mood": [
+      "technical",
+      "futuristic",
+      "bold"
+    ],
+    "use": [
+      "tech brands",
+      "gaming",
+      "developer tools"
+    ],
+    "avoid": [],
+    "logic": "Technor's technical, slightly futuristic display character pairs with Supreme's neutral grotesque body. The heading commands; the body serves.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+sans",
+      "high-contrast",
+      "technical"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "khand--switzer",
+    "heading": "Khand",
+    "headingWeight": 700,
+    "body": "Switzer",
+    "bodyWeight": 400,
+    "category": "Condensed + Grotesque",
+    "contrast": "High",
+    "mood": [
+      "efficient",
+      "modern",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "UI",
+      "news"
+    ],
+    "avoid": [],
+    "logic": "Khand's condensed bold provides compact headline impact while Switzer's regular grotesque offers comfortable reading at text sizes.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed+grotesque",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "quilon--rowan",
+    "heading": "Quilon",
+    "headingWeight": 500,
+    "body": "Rowan",
+    "bodyWeight": 400,
+    "category": "Serif Duo",
+    "contrast": "Medium",
+    "mood": [
+      "literary",
+      "warm",
+      "classic-contemporary"
+    ],
+    "use": [
+      "publishing",
+      "editorial",
+      "cultural brands"
+    ],
+    "avoid": [],
+    "logic": "Quilon and Rowan are two Fontshare serifs with complementary but distinct characters — one more display-oriented, one more text-focused.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+serif",
+      "medium-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "erode--recia",
+    "heading": "Erode",
+    "headingWeight": 600,
+    "body": "Recia",
+    "bodyWeight": 400,
+    "category": "High-Contrast Serif Duo",
+    "contrast": "High",
+    "mood": [
+      "editorial",
+      "distinctive",
+      "refined"
+    ],
+    "use": [
+      "editorial",
+      "brand",
+      "luxury digital"
+    ],
+    "avoid": [],
+    "logic": "Two high-contrast serifs with different personalities. Erode Semibold displays; Recia's regular weight sets comfortable body text.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": "Avoid Erode at small body sizes — it's designed for display."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "serif+serif",
+      "high-contrast",
+      "display-serif"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "teko--hind",
+    "heading": "Teko",
+    "headingWeight": 600,
+    "body": "Hind",
+    "bodyWeight": 400,
+    "category": "Indian Type Duo",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "efficient",
+      "modern"
+    ],
+    "use": [
+      "editorial",
+      "apps",
+      "sports",
+      "news"
+    ],
+    "avoid": [],
+    "logic": "Another ITF pairing. Teko's semi-bold condensed headline face pairs with Hind's screen-optimised body. Very efficient for space-constrained layouts.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–15px",
+      "lineHeight": "1.6",
+      "notes": "Teko is condensed — use larger sizes to compensate. Good for tight layouts."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed+humanist",
+      "high-contrast",
+      "screen-optimized",
+      "ITF"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "available"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "plein--switzer",
+    "heading": "Plein",
+    "headingWeight": 700,
+    "body": "Switzer",
+    "bodyWeight": 400,
+    "category": "Display + Grotesque",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "contemporary",
+      "distinctive"
+    ],
+    "use": [
+      "branding",
+      "editorial",
+      "digital campaigns"
+    ],
+    "avoid": [],
+    "logic": "Plein's distinctive bold character creates memorable headlines. Switzer's clean grotesque body provides a neutral, readable foundation.",
+    "typesetting": {
+      "headingSize": "32–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+grotesque",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "zodiak--plus-jakarta-sans",
+    "heading": "Zodiak",
+    "headingWeight": 700,
+    "body": "Plus Jakarta Sans",
+    "bodyWeight": 400,
+    "category": "Variable Serif + Geometric",
+    "contrast": "High",
+    "mood": [
+      "editorial",
+      "modern",
+      "structured"
+    ],
+    "use": [
+      "digital editorial",
+      "brand",
+      "SaaS landing pages"
+    ],
+    "avoid": [],
+    "logic": "Zodiak's variable serif provides editorial gravitas while Plus Jakarta Sans's geometric clarity handles body text and UI components. The variable axis means Zodiak adapts across sizes.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Zodiak is a variable font — explore optical sizing for best results at different scales."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "variable-serif+geometric-sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "comico--zodiak",
+    "heading": "Comico",
+    "headingWeight": 400,
+    "body": "Zodiak",
+    "bodyWeight": 400,
+    "category": "Comic + Serif",
+    "contrast": "High",
+    "mood": [
+      "playful",
+      "quirky",
+      "editorial"
+    ],
+    "use": [
+      "creative studios",
+      "publishing",
+      "independent brands"
+    ],
+    "avoid": [
+      "corporate or formal contexts"
+    ],
+    "logic": "Comico's unusual display personality creates unexpected headlines. Zodiak's serif body provides grounding and literary credibility.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": "Comico is expressive — use sparingly in headlines only."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "expressive-display+serif",
+      "high-contrast",
+      "quirky"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "rosaline--satoshi",
+    "heading": "Rosaline",
+    "headingWeight": 400,
+    "body": "Satoshi",
+    "bodyWeight": 400,
+    "category": "Script-Adjacent + Geometric",
+    "contrast": "Very High",
+    "mood": [
+      "elegant",
+      "contemporary",
+      "distinctive"
+    ],
+    "use": [
+      "luxury brands",
+      "beauty",
+      "fashion",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Rosaline's flowing display character creates elegant, feminine headlines. Satoshi's neutral geometric sans provides clean, modern body text.",
+    "typesetting": {
+      "headingSize": "40–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Rosaline is a display face — use at generous sizes."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+geometric-sans",
+      "very-high-contrast",
+      "elegant"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "tanker--erode",
+    "heading": "Tanker",
+    "headingWeight": 400,
+    "body": "Erode",
+    "bodyWeight": 400,
+    "category": "Heavy + Serif",
+    "contrast": "Very High",
+    "mood": [
+      "powerful",
+      "editorial",
+      "bold"
+    ],
+    "use": [
+      "posters",
+      "brand campaigns",
+      "editorial headers"
+    ],
+    "avoid": [
+      "body text — Tanker is display only"
+    ],
+    "logic": "Tanker's extreme weight creates maximum typographic impact. Erode's high-contrast serif provides an equally distinctive but readable body.",
+    "typesetting": {
+      "headingSize": "56–144px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.7",
+      "notes": "Tanker works at poster sizes. Don't use Erode at text sizes below 14px."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "heavy-display+serif",
+      "very-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "britney--quicksand",
+    "heading": "Britney",
+    "headingWeight": 400,
+    "body": "Quicksand",
+    "bodyWeight": 500,
+    "category": "Expressive + Rounded",
+    "contrast": "High",
+    "mood": [
+      "playful",
+      "warm",
+      "creative"
+    ],
+    "use": [
+      "consumer brands",
+      "lifestyle",
+      "food & beverage",
+      "events"
+    ],
+    "avoid": [
+      "serious or corporate contexts"
+    ],
+    "logic": "Britney's expressive display character pairs with Quicksand's warm, rounded sans. Both have approachability built in, but from very different angles.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "expressive+rounded-sans",
+      "high-contrast",
+      "playful"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "sharpie--ranade",
+    "heading": "Sharpie",
+    "headingWeight": 800,
+    "body": "Ranade",
+    "bodyWeight": 300,
+    "category": "Ultra-Bold + Light",
+    "contrast": "Very High",
+    "mood": [
+      "impactful",
+      "editorial",
+      "dramatic"
+    ],
+    "use": [
+      "posters",
+      "advertising",
+      "brand campaigns"
+    ],
+    "avoid": [],
+    "logic": "Sharpie Extrabold's maximum weight creates extreme display impact. Ranade Light's delicate grotesque provides maximum weight contrast in body text.",
+    "typesetting": {
+      "headingSize": "56–144px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Sharpie is designed for maximum weight — use at display sizes only."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "ultra-bold+light-sans",
+      "very-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "poppins--bespoke-slab",
+    "heading": "Poppins",
+    "headingWeight": 600,
+    "body": "Bespoke Slab",
+    "bodyWeight": 400,
+    "category": "Geometric + Slab",
+    "contrast": "Medium-High",
+    "mood": [
+      "modern",
+      "warm",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "tech media",
+      "brand publishing"
+    ],
+    "avoid": [],
+    "logic": "Poppins Semi Bold's clean geometric presence transitions to Bespoke Slab's warm slab serif body. An inverted approach — sans leads, slab grounds.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "geometric-sans+slab",
+      "medium-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "pally--neco",
+    "heading": "Pally",
+    "headingWeight": 500,
+    "body": "Neco",
+    "bodyWeight": 400,
+    "category": "Humanist Duo",
+    "contrast": "Low-Medium",
+    "mood": [
+      "warm",
+      "approachable",
+      "friendly"
+    ],
+    "use": [
+      "wellness",
+      "education",
+      "community"
+    ],
+    "avoid": [],
+    "logic": "Two warmly humanist faces that share a friendly DNA. Low contrast creates cohesion; personality comes from the subtle differences in letterform approach.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "humanist+humanist",
+      "low-medium-contrast",
+      "warm"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "chillax--synonym",
+    "heading": "Chillax",
+    "headingWeight": 600,
+    "body": "Synonym",
+    "bodyWeight": 400,
+    "category": "Variable + Neutral",
+    "contrast": "Medium",
+    "mood": [
+      "relaxed",
+      "modern",
+      "versatile"
+    ],
+    "use": [
+      "lifestyle brands",
+      "consumer apps",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Chillax's expressive variable grotesque pairs with Synonym's clean neutral grotesque. The variable axes let Chillax adapt while Synonym stays steady.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Chillax is a variable font — explore the width and weight axes for different moods."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "variable-sans+neutral-sans",
+      "medium-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "switzer--switzer",
+    "heading": "Switzer",
+    "headingWeight": 700,
+    "body": "Switzer",
+    "bodyWeight": 400,
+    "category": "Superfamily",
+    "contrast": "Low-Medium",
+    "mood": [
+      "neutral",
+      "clean",
+      "systematic"
+    ],
+    "use": [
+      "design systems",
+      "UI",
+      "branding",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Single-family pairing. Switzer Bold vs Regular creates clean hierarchy using weight contrast alone. Switzer is versatile enough that one family handles the full typographic range.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "superfamily",
+      "low-medium-contrast",
+      "single-family",
+      "grotesk"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "pilcrow-rounded-heavy--archivo",
+    "heading": "Pilcrow Rounded",
+    "headingWeight": 900,
+    "body": "Archivo",
+    "bodyWeight": 400,
+    "category": "Heavy Rounded + Grotesk",
+    "contrast": "Very High",
+    "mood": [
+      "bold",
+      "playful",
+      "modern"
+    ],
+    "use": [
+      "display advertising",
+      "consumer brands",
+      "editorial"
+    ],
+    "avoid": [],
+    "logic": "Pilcrow Rounded Heavy's extreme weight and rounded forms create maximum display impact. Archivo's reliable grotesk body ground the playfulness.",
+    "typesetting": {
+      "headingSize": "40–96px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "heavy-rounded+grotesk",
+      "very-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "gothic-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "khand-semibold--general-sans",
+    "heading": "Khand",
+    "headingWeight": 600,
+    "body": "General Sans",
+    "bodyWeight": 400,
+    "category": "Condensed + Grotesque",
+    "contrast": "Medium-High",
+    "mood": [
+      "efficient",
+      "modern",
+      "editorial"
+    ],
+    "use": [
+      "news apps",
+      "editorial",
+      "UI"
+    ],
+    "avoid": [],
+    "logic": "Khand Semi Bold's condensed efficiency pairs with General Sans's open grotesque. Good for information-dense editorial contexts.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "condensed+grotesque",
+      "medium-high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "expose--bespoke-sans",
+    "heading": "Expose",
+    "headingWeight": 700,
+    "body": "Bespoke Sans",
+    "bodyWeight": 400,
+    "category": "Display + Clean Sans",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "contemporary",
+      "editorial"
+    ],
+    "use": [
+      "brand campaigns",
+      "editorial",
+      "digital advertising"
+    ],
+    "avoid": [],
+    "logic": "Expose's bold display character creates attention-commanding headlines. Bespoke Sans provides a warm, carefully crafted body text companion.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "rational-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "general-sans--quicksand",
+    "heading": "General Sans",
+    "headingWeight": 500,
+    "body": "Quicksand",
+    "bodyWeight": 500,
+    "category": "Grotesque + Rounded",
+    "contrast": "Low-Medium",
+    "mood": [
+      "approachable",
+      "clean",
+      "friendly"
+    ],
+    "use": [
+      "consumer apps",
+      "wellness",
+      "education"
+    ],
+    "avoid": [
+      "formal or luxury contexts"
+    ],
+    "logic": "General Sans Medium's neutral grotesque transitions to Quicksand Medium's warm rounded sans. Both are medium weight — contrast comes from the rounded vs. normal terminals.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": "Both medium weight — use size more than weight for hierarchy."
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "grotesque+rounded-sans",
+      "low-medium-contrast",
+      "approachable"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "bonny--pilcrow-rounded",
+    "heading": "Bonny",
+    "headingWeight": 500,
+    "body": "Pilcrow Rounded",
+    "bodyWeight": 400,
+    "category": "Display + Rounded",
+    "contrast": "Medium",
+    "mood": [
+      "warm",
+      "expressive",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "culture brands",
+      "publishing"
+    ],
+    "avoid": [],
+    "logic": "Bonny's expressive medium display personality pairs with Pilcrow Rounded's approachable body text. Both have warmth and character.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+rounded-sans",
+      "medium-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "melodrama--nunito",
+    "heading": "Melodrama",
+    "headingWeight": 500,
+    "body": "Nunito",
+    "bodyWeight": 400,
+    "category": "Display + Rounded Sans",
+    "contrast": "High",
+    "mood": [
+      "dramatic",
+      "warm",
+      "editorial"
+    ],
+    "use": [
+      "editorial",
+      "events",
+      "lifestyle brands"
+    ],
+    "avoid": [],
+    "logic": "Melodrama's dramatic display presence pairs with Nunito's warm, rounded body text. High personality contrast creates memorable hierarchy.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "display+rounded-sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "available"
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "nunito--supreme",
+    "heading": "Nunito",
+    "headingWeight": 800,
+    "body": "Supreme",
+    "bodyWeight": 400,
+    "category": "Rounded + Neutral",
+    "contrast": "High",
+    "mood": [
+      "bold",
+      "approachable",
+      "clean"
+    ],
+    "use": [
+      "consumer apps",
+      "editorial",
+      "brand landing pages"
+    ],
+    "avoid": [],
+    "logic": "Nunito ExtraBold's warm rounded weight creates approachable but impactful headlines. Supreme's clean neutral grotesque body provides a clean contrast in warmth and weight.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "rounded+neutral-sans",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": "available",
+      "body": "fontshare-only"
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "general-sans--recia",
+    "heading": "General Sans",
+    "headingWeight": 500,
+    "body": "Recia",
+    "bodyWeight": 400,
+    "category": "Sans + Serif",
+    "contrast": "Medium-High",
+    "mood": [
+      "contemporary",
+      "editorial",
+      "refined"
+    ],
+    "use": [
+      "editorial",
+      "brand publishing",
+      "digital magazines"
+    ],
+    "avoid": [],
+    "logic": "General Sans Medium's clean grotesque heading transitions to Recia's distinctive serif body. A refined inversion — neutral leads, personality grounds.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.75",
+      "notes": ""
+    },
+    "sources": [
+      "fontshare.com/pairs"
+    ],
+    "tags": [
+      "grotesque+serif",
+      "medium-high-contrast",
+      "inverted-pattern"
+    ],
+    "paperAvailability": {
+      "heading": "fontshare-only",
+      "body": "fontshare-only"
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "abril-fatface--lato",
+    "heading": "Abril Fatface",
+    "headingWeight": 400,
+    "body": "Lato",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Very High",
+    "mood": [
+      "bold",
+      "luxurious",
+      "editorial"
+    ],
+    "use": [
+      "luxury brands",
+      "editorial layouts",
+      "fashion"
+    ],
+    "avoid": [
+      "body-heavy content",
+      "long-form reading"
+    ],
+    "logic": "Abril Fatface's ultra-bold decorative serifs demand attention in headlines; Lato's clean humanist design steps back and lets the body breathe. Maximum contrast between display and text register.",
+    "typesetting": {
+      "headingSize": "48–96px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Abril Fatface is pure display — never use below 32px. At headline sizes its thick strokes need room to breathe; generous margins improve the pairing significantly."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "high-contrast",
+      "display",
+      "editorial"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "rational-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "fugaz-one--work-sans",
+    "heading": "Fugaz One",
+    "headingWeight": 400,
+    "body": "Work Sans",
+    "bodyWeight": 400,
+    "category": "Modern Energy",
+    "contrast": "Medium-High",
+    "mood": [
+      "energetic",
+      "approachable",
+      "creative"
+    ],
+    "use": [
+      "creative websites",
+      "tech companies",
+      "marketing materials"
+    ],
+    "avoid": [
+      "formal editorial",
+      "conservative brands"
+    ],
+    "logic": "Fugaz One's geometric italic structure brings kinetic energy to headlines; Work Sans grounds it with clean humanist legibility. The italic-to-upright shift creates natural momentum.",
+    "typesetting": {
+      "headingSize": "36–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Fugaz One is always italic — lean into it compositionally. Work Sans is versatile across weights; 400–500 for body, 600 for subheadings."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "italic-heading",
+      "modern",
+      "marketing"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "gothic-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "space-mono--plus-jakarta-sans",
+    "heading": "Space Mono",
+    "headingWeight": 700,
+    "body": "Plus Jakarta Sans",
+    "bodyWeight": 400,
+    "category": "Tech Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "innovative",
+      "technical",
+      "modern"
+    ],
+    "use": [
+      "tech brands",
+      "design portfolios",
+      "coding environments"
+    ],
+    "avoid": [
+      "warm lifestyle brands",
+      "traditional editorial"
+    ],
+    "logic": "Space Mono's fixed-width retro-tech aesthetic signals precision and code culture; Plus Jakarta Sans balances it with friendly, professional proportions for readable body content.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Space Mono at headline sizes benefits from generous tracking (0.02–0.05em). Its monospaced nature creates visual rhythm at large sizes that feels intentional, not mechanical."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "mono+sans",
+      "tech",
+      "retro-modern",
+      "design-forward"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "grand-hotel--lato",
+    "heading": "Grand Hotel",
+    "headingWeight": 400,
+    "body": "Lato",
+    "bodyWeight": 400,
+    "category": "Script Contrast",
+    "contrast": "High",
+    "mood": [
+      "elegant",
+      "romantic",
+      "boutique"
+    ],
+    "use": [
+      "wedding invitations",
+      "boutique branding",
+      "lifestyle brands"
+    ],
+    "avoid": [
+      "tech",
+      "corporate",
+      "anything requiring bold headings"
+    ],
+    "logic": "Grand Hotel's flowing script calligraphy evokes handwritten luxury; Lato's structured neutrality grounds it with readability. Script + geometric sans is a classic high-contrast formula.",
+    "typesetting": {
+      "headingSize": "48–96px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Script fonts need large sizes to read well — never below 36px. Grand Hotel works best at 60px+ for single words or short phrases. Avoid paragraph-length script text entirely."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "script+sans",
+      "elegant",
+      "wedding",
+      "boutique"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "raleway--merriweather",
+    "heading": "Raleway",
+    "headingWeight": 700,
+    "body": "Merriweather",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "professional",
+      "contemporary",
+      "literary"
+    ],
+    "use": [
+      "educational websites",
+      "literary journals",
+      "corporate communications"
+    ],
+    "avoid": [
+      "casual or playful brands"
+    ],
+    "logic": "Raleway's elegant geometric strokes and distinctive letterforms contrast cleanly against Merriweather's condensed, screen-optimized serifs. The pairing communicates sophistication and substance.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "15–16px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Merriweather is designed for screen reading at small sizes — its tight letter spacing and low x-height work well with generous line height. Raleway's thin strokes need adequate size; don't go below 24px for headings."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+serif",
+      "literary",
+      "professional",
+      "screen-optimized"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "high"
+  },
+  {
+    "id": "chonburi--domine",
+    "heading": "Chonburi",
+    "headingWeight": 400,
+    "body": "Domine",
+    "bodyWeight": 400,
+    "category": "Slab Editorial",
+    "contrast": "Medium",
+    "mood": [
+      "retro-playful",
+      "authoritative",
+      "editorial"
+    ],
+    "use": [
+      "news sites",
+      "publications",
+      "professional blogs"
+    ],
+    "avoid": [
+      "minimal or corporate contexts"
+    ],
+    "logic": "Chonburi's Thai-influenced thick strokes and playful energy make strong headlines; Domine's open spacing and friendly serif design ensures comfortable body reading. Both have warmth without being casual.",
+    "typesetting": {
+      "headingSize": "36–72px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Chonburi works across a wide size range — legible from 24px up to massive display sizes. Domine at 16px with 1.7 line height hits its sweet spot."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "display+serif",
+      "slab",
+      "editorial",
+      "warm"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "contemporary-serif",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "inter--krub",
+    "heading": "Inter",
+    "headingWeight": 700,
+    "body": "Krub",
+    "bodyWeight": 400,
+    "category": "Sans Contrast",
+    "contrast": "Low-Medium",
+    "mood": [
+      "modern",
+      "approachable",
+      "tech-forward"
+    ],
+    "use": [
+      "tech websites",
+      "digital magazines",
+      "marketing materials"
+    ],
+    "avoid": [
+      "editorial contexts requiring strong voice"
+    ],
+    "logic": "Inter's screen-optimized clarity pairs with Krub's distinctive looped letterforms to create subtle visual interest between heading and body without jarring contrast. A contemporary sans-on-sans pairing.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Both fonts are designed for screens. The contrast here is more subtle — rely on weight (700 vs 400) and size to create hierarchy rather than style. Inter at 600 works as a subheading weight."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "screen-optimized",
+      "tech",
+      "modern"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "oswald--source-serif-4",
+    "heading": "Oswald",
+    "headingWeight": 600,
+    "body": "Source Serif 4",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "professional",
+      "trustworthy",
+      "confident"
+    ],
+    "use": [
+      "brand websites",
+      "corporate communications",
+      "responsive design"
+    ],
+    "avoid": [
+      "playful or casual contexts"
+    ],
+    "logic": "Oswald's condensed bold structure creates strong hierarchy even at moderate sizes; Source Serif 4's refined proportions provide excellent readability. The condensed-to-regular width shift is the structural contrast.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Oswald's condensed nature means it reads smaller than its point size suggests — compensate by sizing up. Source Serif 4 is a workhorse serif; very reliable at body sizes."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "condensed+serif",
+      "corporate",
+      "professional",
+      "high-contrast"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "high"
+  },
+  {
+    "id": "arima-madurai--mulish",
+    "heading": "Arima Madurai",
+    "headingWeight": 700,
+    "body": "Mulish",
+    "bodyWeight": 400,
+    "category": "Warm Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "warm",
+      "creative",
+      "approachable"
+    ],
+    "use": [
+      "creative portfolios",
+      "lifestyle brands",
+      "children's content"
+    ],
+    "avoid": [
+      "formal corporate",
+      "high-seriousness contexts"
+    ],
+    "logic": "Arima Madurai's flowing curves and multi-script heritage give headlines warmth and creativity; Mulish's minimalist geometric clarity provides a polished body register that doesn't compete.",
+    "typesetting": {
+      "headingSize": "32–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Arima Madurai has a large x-height that makes it appear larger than its point size. Balance against Mulish by sizing Arima slightly smaller than you might expect."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "warm",
+      "creative",
+      "multi-script"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "nunito--lora",
+    "heading": "Nunito",
+    "headingWeight": 700,
+    "body": "Lora",
+    "bodyWeight": 400,
+    "category": "Warm Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "warm",
+      "approachable",
+      "trustworthy"
+    ],
+    "use": [
+      "educational platforms",
+      "healthcare websites",
+      "community brands"
+    ],
+    "avoid": [
+      "luxury or high-fashion contexts"
+    ],
+    "logic": "Nunito's rounded forms create an inviting headline tone; Lora's calligraphic serif warmth matches temperament perfectly. Both are humanist in spirit — this pairing coheres through shared warmth rather than formal contrast.",
+    "typesetting": {
+      "headingSize": "28–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Lora at body size benefits from 1.7+ line height. Nunito reads heavier than geometric sans at the same size — use 600 or 700 weight to ensure heading registers as dominant."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+serif",
+      "warm",
+      "humanist",
+      "educational"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "ultra--slabo-27px",
+    "heading": "Ultra",
+    "headingWeight": 400,
+    "body": "Slabo 27px",
+    "bodyWeight": 400,
+    "category": "Slab Editorial",
+    "contrast": "High",
+    "mood": [
+      "powerful",
+      "editorial",
+      "impactful"
+    ],
+    "use": [
+      "editorial designs",
+      "music websites",
+      "creative projects"
+    ],
+    "avoid": [
+      "long body text at small sizes"
+    ],
+    "logic": "Ultra's massive slab serif personality dominates headlines with raw visual power; Slabo 27px is literally optimized for screen reading at a specific size, making it a technically precise body companion.",
+    "typesetting": {
+      "headingSize": "48–120px",
+      "bodySize": "16–18px",
+      "lineHeight": "1.6–1.7",
+      "notes": "Ultra is display-only — treat it as a poster face. Slabo 27px is specifically designed for 27px display size; use it at 14–18px where it was optimized. Do not scale up dramatically."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "slab+serif",
+      "display",
+      "editorial",
+      "impactful"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "rational-serif",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "arvo--lato",
+    "heading": "Arvo",
+    "headingWeight": 700,
+    "body": "Lato",
+    "bodyWeight": 400,
+    "category": "Slab + Sans",
+    "contrast": "Medium-High",
+    "mood": [
+      "confident",
+      "corporate",
+      "approachable"
+    ],
+    "use": [
+      "technical documentation",
+      "corporate websites",
+      "marketing materials"
+    ],
+    "avoid": [
+      "high-fashion or luxury contexts"
+    ],
+    "logic": "Arvo's geometric slab serifs project authority in headlines; Lato's humanist warmth makes body text friendly and readable. The geometric-to-humanist shift softens the pairing just enough.",
+    "typesetting": {
+      "headingSize": "28–60px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Arvo has a wide body and large x-height — it dominates at even moderate sizes. Lato 400 at body size reads lighter than expected; 450 or 500 may be preferable."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "slab+sans",
+      "corporate",
+      "approachable",
+      "geometric"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "contemporary-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "unica-one--crimson-text",
+    "heading": "Unica One",
+    "headingWeight": 400,
+    "body": "Crimson Text",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "modern",
+      "timeless",
+      "luxury"
+    ],
+    "use": [
+      "luxury brands",
+      "high-end magazines",
+      "sophisticated blogs"
+    ],
+    "avoid": [
+      "casual or approachable brands"
+    ],
+    "logic": "Unica One's bold condensed sans structure gives headlines a crisp modern edge; Crimson Text's classical Old Style serif brings warmth and authority to body text. Modern-meets-traditional contrast.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Crimson Text needs generous line height — 1.75 at body sizes is ideal. Its old-style proportions have moderate x-height, so size up slightly vs. more modern serifs."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "condensed+serif",
+      "luxury",
+      "high-contrast",
+      "modern"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "cinzel--fauna-one",
+    "heading": "Cinzel",
+    "headingWeight": 700,
+    "body": "Fauna One",
+    "bodyWeight": 400,
+    "category": "Historical Drama",
+    "contrast": "High",
+    "mood": [
+      "grand",
+      "historical",
+      "refined"
+    ],
+    "use": [
+      "history and heritage projects",
+      "art",
+      "cultural institutions"
+    ],
+    "avoid": [
+      "tech",
+      "modern brand identities",
+      "casual contexts"
+    ],
+    "logic": "Cinzel's Roman inscription letterforms evoke classical antiquity with grandeur; Fauna One's soft, slightly condensed serifs provide an approachable body that doesn't clash with the drama above.",
+    "typesetting": {
+      "headingSize": "36–80px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.75",
+      "notes": "Cinzel's caps-only or caps-dominant nature means all-caps headings at generous tracking (0.08–0.12em) are its natural state. Fauna One at 16px is elegant. Consider Cinzel Decorative for special display moments."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "roman+serif",
+      "historical",
+      "grand",
+      "cultural"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "inscribed-serif",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "yeseva-one--josefin-sans",
+    "heading": "Yeseva One",
+    "headingWeight": 400,
+    "body": "Josefin Sans",
+    "bodyWeight": 400,
+    "category": "Feminine Elegance",
+    "contrast": "High",
+    "mood": [
+      "feminine",
+      "sophisticated",
+      "fashion-forward"
+    ],
+    "use": [
+      "fashion brands",
+      "lifestyle brands",
+      "creative agencies"
+    ],
+    "avoid": [
+      "masculine or neutral brand identities",
+      "technical content"
+    ],
+    "logic": "Yeseva One's display serif energy — bold yet elegant — pairs with Josefin Sans' geometric, vintage-inflected clarity. The decorative-to-geometric contrast creates a fashion editorial feel.",
+    "typesetting": {
+      "headingSize": "40–96px",
+      "bodySize": "13–15px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Josefin Sans reads small for its point size — compensate with generous tracking (0.04–0.08em). At body sizes, prefer 400 weight with slightly positive tracking. Yeseva One is display-only; never below 28px."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "fashion",
+      "elegant",
+      "geometric-sans"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "sacramento--alice",
+    "heading": "Sacramento",
+    "headingWeight": 400,
+    "body": "Alice",
+    "bodyWeight": 400,
+    "category": "Script Contrast",
+    "contrast": "High",
+    "mood": [
+      "romantic",
+      "vintage",
+      "nostalgic"
+    ],
+    "use": [
+      "wedding websites",
+      "personal blogs",
+      "romantic themes"
+    ],
+    "avoid": [
+      "professional or corporate contexts",
+      "anything requiring bold impact"
+    ],
+    "logic": "Sacramento's monoline script with vintage curves creates an emotionally resonant headline; Alice's subtle serif structure and slight whimsy complement the mood without competing with the script energy.",
+    "typesetting": {
+      "headingSize": "56–120px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Sacramento requires very large sizes to be legible — 60px minimum for short phrases, 80px+ for single words. Never use for paragraphs. Alice at body size has a gentle, friendly texture."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "script+serif",
+      "wedding",
+      "romantic",
+      "vintage"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "transitional-serif",
+    "classConfidence": "low"
+  },
+  {
+    "id": "roboto--lora",
+    "heading": "Roboto",
+    "headingWeight": 700,
+    "body": "Lora",
+    "bodyWeight": 400,
+    "category": "Digital Editorial",
+    "contrast": "Medium-High",
+    "mood": [
+      "professional",
+      "readable",
+      "contemporary"
+    ],
+    "use": [
+      "professional websites",
+      "blogs",
+      "editorial layouts"
+    ],
+    "avoid": [
+      "luxury contexts where Roboto's ubiquity feels generic"
+    ],
+    "logic": "Roboto's mechanically geometric but slightly humanist design makes confident headlines; Lora's calligraphic warmth gives body text personality and reading comfort. A reliable, widely-used pairing.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Both fonts are extremely well-tested at screen sizes. Roboto is ubiquitous — if distinctiveness matters, consider alternatives. Lora at 16px with 1.7 line height is a proven body text formula."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+serif",
+      "digital",
+      "professional",
+      "screen-optimized"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "neo-grotesque-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "high"
+  },
+  {
+    "id": "montserrat--karla",
+    "heading": "Montserrat",
+    "headingWeight": 700,
+    "body": "Karla",
+    "bodyWeight": 400,
+    "category": "Sans Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "polished",
+      "corporate",
+      "approachable"
+    ],
+    "use": [
+      "corporate websites",
+      "tech products",
+      "professional marketing"
+    ],
+    "avoid": [
+      "editorial or literary contexts"
+    ],
+    "logic": "Montserrat's geometric urban polish pairs with Karla's humanist warmth for a pairing that feels professional without coldness. The geometric-to-humanist shift adds subtle contrast within the sans-on-sans space.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Montserrat's large x-height makes it read large for its point size. Karla is compact and slightly condensed — size up slightly for body readability."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "corporate",
+      "geometric+humanist",
+      "professional"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "fjalla-one--cantarell",
+    "heading": "Fjalla One",
+    "headingWeight": 400,
+    "body": "Cantarell",
+    "bodyWeight": 400,
+    "category": "Bold + Neutral",
+    "contrast": "Medium-High",
+    "mood": [
+      "bold",
+      "clear",
+      "modern"
+    ],
+    "use": [
+      "websites",
+      "blogs",
+      "marketing materials"
+    ],
+    "avoid": [
+      "luxury or high-fashion contexts"
+    ],
+    "logic": "Fjalla One's tall condensed boldness commands attention in headlines; Cantarell's humanist open forms provide a friendly, readable counterbalance. The width contrast (condensed vs regular) is the structural key.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Fjalla One is always single-weight (regular, which renders bold) — you cannot vary its weight. Use size and color to build sub-hierarchy. Cantarell at 400 is readable at small sizes on screen."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "condensed+sans",
+      "bold",
+      "modern",
+      "versatile"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "source-sans-3--alegreya",
+    "heading": "Source Sans 3",
+    "headingWeight": 600,
+    "body": "Alegreya",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "literary",
+      "professional",
+      "understated"
+    ],
+    "use": [
+      "digital publications",
+      "literary websites",
+      "educational platforms"
+    ],
+    "avoid": [
+      "contexts needing strong display drama"
+    ],
+    "logic": "An inversion of the typical serif headline pattern — Source Sans 3's clean professionalism in headlines pairs with Alegreya's calligraphic warmth and rhythm in body text. Literary without being stuffy.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Alegreya has a large x-height and calligraphic quality that reads beautifully at body size. Its italic is especially expressive — use it for pull quotes. Source Sans 3 replaced Source Sans Pro; treat as the same family. Originally listed as 'Source Sans Pro' in this source."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+serif",
+      "literary",
+      "calligraphic",
+      "educational"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "humanist-serif",
+    "classConfidence": "high"
+  },
+  {
+    "id": "stint-ultra-expanded--pontano-sans",
+    "heading": "Stint Ultra Expanded",
+    "headingWeight": 400,
+    "body": "Pontano Sans",
+    "bodyWeight": 400,
+    "category": "Width Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "bold",
+      "sophisticated",
+      "spacious"
+    ],
+    "use": [
+      "high-impact designs",
+      "poster-style layouts",
+      "brand statements"
+    ],
+    "avoid": [
+      "body-heavy content",
+      "narrow viewports"
+    ],
+    "logic": "Stint Ultra Expanded's extreme horizontal stretch creates a unique headline presence; Pontano Sans' clean geometric body text provides contrast through width normalization. Best in wide-canvas contexts.",
+    "typesetting": {
+      "headingSize": "24–48px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Stint Ultra Expanded's extreme width means even modest point sizes occupy huge horizontal space — use sparingly for short headings. Works best with generous white space."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "expanded+sans",
+      "width-contrast",
+      "bold",
+      "design-forward"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "contemporary-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "ubuntu--rokkitt",
+    "heading": "Ubuntu",
+    "headingWeight": 700,
+    "body": "Rokkitt",
+    "bodyWeight": 400,
+    "category": "Humanist + Slab",
+    "contrast": "Medium",
+    "mood": [
+      "tech-friendly",
+      "personal",
+      "modern"
+    ],
+    "use": [
+      "technology websites",
+      "digital platforms",
+      "modern businesses"
+    ],
+    "avoid": [
+      "luxury or fashion contexts"
+    ],
+    "logic": "Ubuntu's humanist curves and modern tech DNA pair with Rokkitt's sturdy slab serif structure. Humanist-to-geometric contrast within a shared warmth — both feel human despite their technical associations.",
+    "typesetting": {
+      "headingSize": "24–52px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Ubuntu has distinct letterforms that give it personality even at small sizes. Rokkitt as a slab works better at body sizes than many slabs due to its clear construction. Avoid Rokkitt below 14px."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "humanist+slab",
+      "tech",
+      "modern",
+      "warm"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "neo-grotesque-sans",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "nunito--pt-sans",
+    "heading": "Nunito",
+    "headingWeight": 700,
+    "body": "PT Sans",
+    "bodyWeight": 400,
+    "category": "Sans Harmony",
+    "contrast": "Low-Medium",
+    "mood": [
+      "friendly",
+      "accessible",
+      "professional"
+    ],
+    "use": [
+      "websites",
+      "blogs",
+      "apps"
+    ],
+    "avoid": [
+      "contexts requiring strong typographic voice"
+    ],
+    "logic": "Nunito's rounded shapes signal warmth and approachability in headlines; PT Sans anchors it with structured neutrality for body text. The rounded-to-neutral shift provides subtle contrast while maintaining harmony.",
+    "typesetting": {
+      "headingSize": "24–52px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Both are screen-optimized and versatile. Hierarchy must come primarily from weight and size — the style contrast alone is minimal. PT Sans at 400 is comfortable at 14px+."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "friendly",
+      "accessible",
+      "screen-optimized"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "dot-gothic-16--space-mono",
+    "heading": "DotGothic16",
+    "headingWeight": 400,
+    "body": "Space Mono",
+    "bodyWeight": 400,
+    "category": "Tech/Code",
+    "contrast": "Medium",
+    "mood": [
+      "retro-tech",
+      "nostalgic",
+      "digital"
+    ],
+    "use": [
+      "tech or programming content",
+      "game websites",
+      "retro digital aesthetics"
+    ],
+    "avoid": [
+      "professional or corporate contexts",
+      "long-form reading"
+    ],
+    "logic": "DotGothic16's pixel-art aesthetic creates a retro digital headline energy; Space Mono's fixed-width 1960s-space-age design provides a technically legible body that reinforces the retro-tech world.",
+    "typesetting": {
+      "headingSize": "32–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.8",
+      "notes": "Both fonts have a strong personality — use on dark backgrounds for maximum retro impact. Monospaced body text needs extra line height. Limit body text length to maintain readability."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "pixel+mono",
+      "retro",
+      "tech",
+      "gaming"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "playfair-display--lato",
+    "heading": "Playfair Display",
+    "headingWeight": 700,
+    "body": "Lato",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Very High",
+    "mood": [
+      "luxury",
+      "sophisticated",
+      "editorial"
+    ],
+    "use": [
+      "editorial designs",
+      "luxury brands",
+      "refined marketing"
+    ],
+    "avoid": [
+      "UI-heavy interfaces",
+      "body-text-dominant layouts"
+    ],
+    "logic": "Playfair Display's high-contrast Didone-inspired serifs create striking, sophisticated headlines; Lato's neutral humanist design provides exactly the right amount of warmth and legibility in body text. A reliable, proven pairing.",
+    "typesetting": {
+      "headingSize": "32–80px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.6–1.75",
+      "notes": "This pairing also exists with Source Sans 3 as body — Lato is warmer and friendlier; Source Sans 3 is more neutral. Choose based on desired tone. Playfair's thin strokes need adequate contrast against background."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "luxury",
+      "high-contrast",
+      "editorial"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "quicksand--quicksand",
+    "heading": "Quicksand",
+    "headingWeight": 700,
+    "body": "Quicksand",
+    "bodyWeight": 400,
+    "category": "Superfamily Harmony",
+    "contrast": "Low",
+    "mood": [
+      "playful",
+      "youthful",
+      "cohesive"
+    ],
+    "use": [
+      "playful brands",
+      "children's products",
+      "friendly consumer apps"
+    ],
+    "avoid": [
+      "contexts needing strong personality contrast between heading and body"
+    ],
+    "logic": "Same-family weight contrast is the simplest cohesion strategy. Quicksand's geometric rounded forms at 700 vs 400 creates hierarchy without any stylistic break — inherently unified design.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "With single-family pairings, size and weight differentiation must do all the hierarchy work. Ensure at least 2:1 size ratio between heading and body. A third weight (500 or 600) can serve as subheading."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "superfamily",
+      "rounded",
+      "playful",
+      "cohesive"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "syne--inter",
+    "heading": "Syne",
+    "headingWeight": 700,
+    "body": "Inter",
+    "bodyWeight": 400,
+    "category": "Sans Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "fresh",
+      "innovative",
+      "design-forward"
+    ],
+    "use": [
+      "design websites",
+      "tech portfolios",
+      "creative agencies"
+    ],
+    "avoid": [
+      "traditional editorial",
+      "conservative brands"
+    ],
+    "logic": "Syne's expanding letterforms and bold geometric personality give headlines a distinctive design-world sensibility; Inter's neutral screen-optimized clarity makes body text invisible in the best way.",
+    "typesetting": {
+      "headingSize": "32–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Syne's bolder weights (700–800) are where its character really shows. At large sizes its expanding letter widths create an interesting rhythmic texture. Inter at 400 is the industry standard for neutral body text."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "design-forward",
+      "expressive",
+      "modern"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "yellowtail--rethink-sans",
+    "heading": "Yellowtail",
+    "headingWeight": 400,
+    "body": "Rethink Sans",
+    "bodyWeight": 400,
+    "category": "Script Contrast",
+    "contrast": "High",
+    "mood": [
+      "retro",
+      "playful",
+      "fashion-forward"
+    ],
+    "use": [
+      "restaurants",
+      "event promotion",
+      "retro-aesthetic brands"
+    ],
+    "avoid": [
+      "serious or formal contexts",
+      "long headline phrases"
+    ],
+    "logic": "Yellowtail's retro brush-script energy in headlines contrasts with Rethink Sans' clean contemporary body. Script-to-sans is a classic formula; the retro flavor vs. modern neutrality creates interesting temporal contrast.",
+    "typesetting": {
+      "headingSize": "48–120px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Yellowtail needs generous size to read well — 60px minimum. Rethink Sans is clean and modern; its neutrality ensures the script takes center stage. Use Yellowtail only for short phrases."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "script+sans",
+      "retro",
+      "event",
+      "playful"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "rufina--average-sans",
+    "heading": "Rufina",
+    "headingWeight": 400,
+    "body": "Average Sans",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "editorial",
+      "refined",
+      "timeless"
+    ],
+    "use": [
+      "editorial publications",
+      "professional design",
+      "brand identities"
+    ],
+    "avoid": [
+      "casual or playful brands"
+    ],
+    "logic": "Rufina's classic serif elegance in headlines paired with Average Sans' intentionally neutral body creates a clean editorial hierarchy. Average Sans name reflects its design philosophy — it doesn't distract.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Rufina has moderate contrast in its strokes — works better than high-contrast Didones at body sizes, but still best as heading-only. Average Sans is exactly what it says — a reliable, unobtrusive choice."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "editorial",
+      "neutral-body",
+      "refined"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "poiret-one--montserrat",
+    "heading": "Poiret One",
+    "headingWeight": 400,
+    "body": "Montserrat",
+    "bodyWeight": 400,
+    "category": "Art Deco",
+    "contrast": "Medium-High",
+    "mood": [
+      "luxurious",
+      "Art Deco",
+      "stylish"
+    ],
+    "use": [
+      "luxury brands",
+      "Art Deco-inspired designs",
+      "fashion"
+    ],
+    "avoid": [
+      "casual brands",
+      "tech or corporate contexts"
+    ],
+    "logic": "Poiret One's Art Deco geometric letterforms create a distinctly stylized headline register; Montserrat shares geometric DNA without competing — it's in the same world but a different register.",
+    "typesetting": {
+      "headingSize": "36–96px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Poiret One is thin and decorative — needs large sizes and strong background contrast. On light backgrounds, its hairline strokes can disappear. Both fonts have geometric proportions that create visual coherence."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "art-deco",
+      "geometric",
+      "luxury",
+      "thin-heading"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "geometric-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "sintony--poppins",
+    "heading": "Sintony",
+    "headingWeight": 700,
+    "body": "Poppins",
+    "bodyWeight": 400,
+    "category": "Sans Harmony",
+    "contrast": "Low-Medium",
+    "mood": [
+      "sophisticated",
+      "friendly",
+      "professional"
+    ],
+    "use": [
+      "tech websites",
+      "creative projects",
+      "educational platforms"
+    ],
+    "avoid": [
+      "contexts needing strong personality contrast"
+    ],
+    "logic": "Sintony's slightly square, sophisticated structure in headlines contrasts subtly with Poppins' friendly circular geometry in body text. Both are screen-optimized; the subtle personality difference creates a professional-yet-approachable balance.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "This is a subtle pairing — hierarchy must come from weight and size. Poppins at body size is clean but can feel generic; the Sintony heading gives it context and distinction. Poppins 400 reads lighter than Inter or DM Sans."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "geometric",
+      "professional",
+      "friendly"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "philosopher--mulish",
+    "heading": "Philosopher",
+    "headingWeight": 400,
+    "body": "Mulish",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "timeless",
+      "literary",
+      "approachable"
+    ],
+    "use": [
+      "literary content",
+      "educational websites",
+      "logo and brand identity"
+    ],
+    "avoid": [
+      "tech or minimalist contexts that require neutral headings"
+    ],
+    "logic": "Philosopher's modern serif elegance lends timeless authority to headlines; Mulish's minimalist sans-serif clarity ensures body text stays clean and readable. The serif-to-geometric-sans contrast is clean and reliable.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Philosopher has good weight variety including italic, which makes it versatile for subheadings and emphasis. Its proportions make it usable at moderate heading sizes (24px+) unlike pure display faces."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "literary",
+      "versatile",
+      "timeless"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "cardo--hind",
+    "heading": "Cardo",
+    "headingWeight": 700,
+    "body": "Hind",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "scholarly",
+      "traditional",
+      "functional"
+    ],
+    "use": [
+      "historical projects",
+      "educational content",
+      "literary designs"
+    ],
+    "avoid": [
+      "modern tech contexts",
+      "casual consumer brands"
+    ],
+    "logic": "Cardo's scholarly Unicode-rich serifs bring classical tradition to headlines; Hind's Indian Type Foundry precision ensures clean body text that doesn't distract from academic content. Tradition-and-function balance.",
+    "typesetting": {
+      "headingSize": "28–60px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Cardo's extensive Unicode coverage makes it valuable for multilingual scholarly content. Hind's body weight is clean and reliable. Both fonts have warmth without being decorative — they feel like tools."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "scholarly",
+      "multilingual",
+      "traditional"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "bubblegum-sans--open-sans",
+    "heading": "Bubblegum Sans",
+    "headingWeight": 400,
+    "body": "Open Sans",
+    "bodyWeight": 400,
+    "category": "Playful + Neutral",
+    "contrast": "Medium",
+    "mood": [
+      "playful",
+      "friendly",
+      "casual"
+    ],
+    "use": [
+      "children's websites",
+      "creative platforms",
+      "casual consumer brands"
+    ],
+    "avoid": [
+      "professional or luxury contexts"
+    ],
+    "logic": "Bubblegum Sans' rounded, playful personality in headlines creates a welcoming tone; Open Sans' neutral humanist design keeps body text grounded without fighting the headline's energy.",
+    "typesetting": {
+      "headingSize": "28–64px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Bubblegum Sans is single-weight and display-leaning — never push it too small. Open Sans is one of the most-used body fonts on the web; it's a safe, versatile choice. The key here is letting the heading carry all the personality."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "display+sans",
+      "playful",
+      "children",
+      "friendly"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "humanist-sans",
+    "classConfidence": "low"
+  },
+  {
+    "id": "archivo-narrow--tenor-sans",
+    "heading": "Archivo Narrow",
+    "headingWeight": 700,
+    "body": "Tenor Sans",
+    "bodyWeight": 400,
+    "category": "Condensed Contrast",
+    "contrast": "Medium",
+    "mood": [
+      "editorial",
+      "corporate",
+      "space-efficient"
+    ],
+    "use": [
+      "editorial layouts",
+      "corporate websites",
+      "space-constrained advertising"
+    ],
+    "avoid": [
+      "contexts needing maximum headline impact"
+    ],
+    "logic": "Archivo Narrow's condensed bold structure maximizes headline impact in tight spaces; Tenor Sans adds clarity and elegance to body text with its clean sans design. A practical pairing for constrained layouts.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.7",
+      "notes": "Archivo Narrow's condensed nature means it fits more characters per line — useful in grid-heavy editorial layouts. Tenor Sans has moderate personality; not as neutral as Inter but not strongly expressive either."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "condensed+sans",
+      "editorial",
+      "space-efficient",
+      "corporate"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "gothic-sans",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "rethink-sans--spectral",
+    "heading": "Rethink Sans",
+    "headingWeight": 700,
+    "body": "Spectral",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "Medium-High",
+    "mood": [
+      "professional",
+      "elegant",
+      "editorial"
+    ],
+    "use": [
+      "professional websites",
+      "corporate documents",
+      "editorial content"
+    ],
+    "avoid": [
+      "casual consumer brands",
+      "playful contexts"
+    ],
+    "logic": "Rethink Sans provides a crisp, modern sans headline register; Spectral's refined serif warmth adds elegance and character to body text. The clean-to-warm shift creates a harmonious professional pairing.",
+    "typesetting": {
+      "headingSize": "24–56px",
+      "bodySize": "15–17px",
+      "lineHeight": "1.65–1.8",
+      "notes": "Spectral is a screen-optimized serif with excellent rendering at body sizes. Its range of optical sizes and weights gives it flexibility for both body and subheading use."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+serif",
+      "professional",
+      "editorial",
+      "refined"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "humanist-sans",
+    "bodyClass": "contemporary-serif",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "crimson-serif--dm-sans",
+    "heading": "Crimson Serif",
+    "headingWeight": 700,
+    "body": "DM Sans",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "credible",
+      "established",
+      "forward-thinking"
+    ],
+    "use": [
+      "publications",
+      "heritage brands updating their identity"
+    ],
+    "avoid": [
+      "modern-only brands"
+    ],
+    "logic": "Crimson Serif's classical tradition signals credibility and depth; DM Sans' modern geometric clarity brings it into the present. History meeting modernity — an increasingly popular formula for established brands.",
+    "typesetting": {
+      "headingSize": "32–72px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "NOTE: Crimson Serif is not available in Paper (Fontshare-exclusive). Fallback to Crimson Text or Crimson Pro, which are available. DM Sans at body size reads lighter than expected — use 450–500 weight."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "heritage",
+      "classic-modern",
+      "credible"
+    ],
+    "paperAvailability": {
+      "heading": false,
+      "body": true
+    },
+    "headingClass": "humanist-serif",
+    "bodyClass": "geometric-sans",
+    "classConfidence": "high"
+  },
+  {
+    "id": "young-serif--instrument-sans",
+    "heading": "Young Serif",
+    "headingWeight": 400,
+    "body": "Instrument Sans",
+    "bodyWeight": 400,
+    "category": "Classic Contrast",
+    "contrast": "High",
+    "mood": [
+      "artistic",
+      "creative",
+      "balanced"
+    ],
+    "use": [
+      "art and design websites",
+      "creative portfolios",
+      "cultural brands"
+    ],
+    "avoid": [
+      "corporate contexts requiring conservative headings"
+    ],
+    "logic": "Young Serif brings display character and flair to headlines; Instrument Sans keeps body clear and grounded with modern sans geometry. The expressive-to-neutral contrast is textbook but executed with contemporary taste.",
+    "typesetting": {
+      "headingSize": "32–80px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.6–1.75",
+      "notes": "Young Serif is a display face — use at 28px+. At large sizes its character is expressive; at small sizes it's still legible. Instrument Sans is a newer face with refined proportions."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "serif+sans",
+      "creative",
+      "display",
+      "contemporary"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "transitional-serif",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  },
+  {
+    "id": "instrument-sans--geist",
+    "heading": "Instrument Sans",
+    "headingWeight": 700,
+    "body": "Geist",
+    "bodyWeight": 400,
+    "category": "Sans Harmony",
+    "contrast": "Low",
+    "mood": [
+      "digital",
+      "clean",
+      "tech-forward"
+    ],
+    "use": [
+      "digital interfaces",
+      "tech websites",
+      "product UI"
+    ],
+    "avoid": [
+      "contexts needing strong voice or personality"
+    ],
+    "logic": "Two contemporary modern sans serifs with similar DNA — the contrast here is subtle, relying entirely on weight and size to establish hierarchy. The visual result is a cohesive, digital-first, minimal feel.",
+    "typesetting": {
+      "headingSize": "24–52px",
+      "bodySize": "14–16px",
+      "lineHeight": "1.55–1.65",
+      "notes": "With two modern sans fonts, hierarchy must come from weight, size, and color alone. Ensure at least 2:1 size ratio. Geist (from Vercel) has clean technical proportions; it's designed for developer tools and interfaces."
+    },
+    "sources": [
+      "https://www.figma.com/resource-library/font-pairings/"
+    ],
+    "tags": [
+      "sans+sans",
+      "tech",
+      "digital",
+      "minimal"
+    ],
+    "paperAvailability": {
+      "heading": true,
+      "body": true
+    },
+    "headingClass": "grotesque-sans",
+    "bodyClass": "grotesque-sans",
+    "classConfidence": "medium"
+  }
+]
