@@ -52,6 +52,39 @@ Line heights slightly tighter due to shorter line lengths (1.55-1.65 for body).
 
 ---
 
+## Typesetting Compositions
+
+How text blocks are structured — not what sizes they use, but how heading, lead,
+and body relate within a section. Choose a composition for the project during the
+brief. It's a project-level decision, like choosing a typeface.
+
+### Integrated Block
+Bold lead sentence flows into regular-weight text at the same size. No kicker, no
+altitude separation. Hierarchy through weight and color only.
+Communicates: confidence, restraint, authored voice.
+
+### Kicker + Heading + Body
+All-caps label → large heading → body paragraph. Three altitude levels.
+Communicates: categorization, scannability. Risk: formulaic when overused.
+
+### Statement Only
+Single large sentence, no supporting body. Stands alone with whitespace.
+Communicates: maximum confidence. Best used once or twice per page as punctuation.
+
+### Spec-Led
+Large numbers/values dominate, labels subordinate beneath.
+Communicates: technical authority. Lets data speak.
+
+### Caption Style
+Small refined text alongside large images. Image carries the section.
+Communicates: editorial sophistication, visual-first.
+
+### Editorial Drop
+Text starts large and drops size mid-block — display opening transitions to body.
+Communicates: narrative pull, magazine craftsmanship.
+
+---
+
 ## Responsive Scaling
 
 Don't scale everything linearly. Body text stays stable; headings and display scale.

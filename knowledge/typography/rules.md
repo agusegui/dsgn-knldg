@@ -48,6 +48,11 @@ Before choosing any typeface, engage with the content:
    personality]
 4. **Choose and justify.** Pick the strongest candidate and state why it wins over the
    other two. This prevents autopilot selection.
+5. **Content category informs classification.** Premium technology and precision hardware
+   lean toward clean sans-serifs — geometric or grotesque. Decorative serifs (Didone,
+   high-contrast display faces) serve fashion, luxury editorial, and cultural contexts
+   where ornament is earned by the content. Matching classification to content category
+   is as important as matching mood.
 
 ### Overused typefaces
 

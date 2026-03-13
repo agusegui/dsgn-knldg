@@ -152,6 +152,21 @@ reads as a list, not a composition.
 should be tall and spacious (contemplative). Others should be compact and dense
 (informational). The rhythm should feel scored, not metronomic.
 
+### The equal spec strip
+
+N items, same size, same weight, evenly spaced in a row with labels beneath.
+The most templated section pattern in product page design. Treats all data points
+as equally important when they rarely are.
+
+**The fix isn't a specific alternative — it's asking better questions:**
+- Which of these specs matters most? Give it dominance through scale.
+- Can these specs live inside the sections they belong to instead of being
+  extracted into their own section?
+- Does the hierarchy serve the reader, or does it serve the layout's symmetry?
+
+Any presentation that differentiates by importance — through scale, grouping,
+or integration into narrative content — will outperform equal repetition.
+
 ### Medium everything
 All headings between 32–48px, all body at 16px, all spacing at 40–60px. Nothing is
 notably large or notably small. The page has no visual peaks or valleys.
