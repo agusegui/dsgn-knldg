@@ -126,12 +126,29 @@ the right context, but none should be the automatic first choice.
   [Body paragraph text]
      [Button] [Button]
 ```
-This is the most common landing page template. It's appropriate for a single hero moment
-but becomes monotonous when repeated across sections. If the page has 4+ sections and
-all of them are centered stacks, the composition has failed.
+This is the most common landing page template — and the single most common failure mode
+in agent-generated hero sections. Centered text above a full-width image is the default
+that every template produces. It fails the composition test: *"Would a designer look at
+this and know it wasn't a template?"* Almost never.
 
-**When it works:** A single, isolated statement (manifesto, closing CTA).
-**When it fails:** As the organizing principle for an entire page.
+**When it works:** A closing CTA, a manifesto statement, or a single moment of
+symmetrical calm between asymmetric sections. Never as the hero — the hero is the
+page's first impression and must demonstrate compositional intent.
+
+**When it fails:** As a hero section. As the organizing principle for an entire page.
+As the default when no other idea comes to mind — that's the signal to stop and sketch.
+
+**Hero alternatives that demonstrate intent:**
+- Asymmetric split: text anchored left at extreme scale, product image offset right
+- Overlap/bleed: product image breaks into the text zone, creating depth
+- Typographic hero: product name at extreme scale (120px+) with text wrapping around
+  or flowing beside a contained product image
+- Edge-anchored: text and CTA pushed to one side with the product owning the other 60%
+- Vertical offset: text high with dramatic whitespace, product image below at an
+  unexpected crop or angle
+
+[updated after a session where the centered stack anti-pattern was acknowledged in the
+brief but built anyway — the previous wording gave permission for hero use]
 
 ### The three-card grid
 Three equal cards in a row is the default "features section." It communicates
@@ -141,7 +158,10 @@ nothing about the brand's visual identity.
 **Alternatives:**
 - One large feature (2/3 width) + two stacked smaller features (1/3 width)
 - Sequential reveals — one feature per section, each with its own compositional treatment
-- A single scrolling row with varying card sizes
+- **Horizontal carousel** — each item gets its own full moment; works especially well for
+  4+ peer items with rich/atmospheric imagery. Avoids the grid monotony problem entirely.
+  Should always be a named candidate when presenting N items of equal importance.
+- Asymmetric mosaic with ratio-derived proportions (see below and `../foundations/math.md`)
 - No cards at all — features as editorial text blocks with typographic hierarchy
 
 ### The uniform section rhythm
@@ -267,6 +287,21 @@ agent-generated designs. They communicate "we have three things" without signali
 which matters most. If the items genuinely are equal, vary the *internal* treatment
 (one gets an image, the others are text-only) to avoid visual monotony.
 
+### Asset character drives composition
+
+The same content with different images demands different layouts. Clinical product shots
+on clean backgrounds work with card+list and structured grid layouts — the images are
+informational. Atmospheric, in-context photography (hands playing an instrument, moody
+studio lighting, performance shots) demands image-first layouts — mosaics, bleeds,
+overlays — because the images carry emotional weight that structured grids suppress.
+
+**Before choosing a layout pattern, look at the images.** If they're atmospheric and
+diverse, the composition should let them dominate (mosaic, carousel, full-bleed). If
+they're uniform product shots, the composition can be more structured (cards, grids).
+The layout decision depends on what images you have, not just what content you have.
+[added after a session where switching from product shots to atmospheric photography
+completely changed the right approach from card+list to mosaic]
+
 ### Asset integration — images inside components, not beside them
 
 Product images embedded *inside* a card or content block feel structural — the image
@@ -285,6 +320,39 @@ content component. [added after a session where a product landing page treated a
 images as side-by-side decorations rather than integrating them into feature cards,
 creating a page that looked like a brochure with illustrations rather than a product
 page with demonstrations]
+
+---
+
+## Ratio-derived mosaic grids
+
+When building an asymmetric image grid or mosaic, derive proportions from a single ratio —
+don't improvise splits per row. Eyeballed proportions (7/5, then 4/8, then 6/3/3) create
+visual noise because the relationships between rows are arbitrary.
+
+**Method:**
+1. Choose a ratio from `../foundations/math.md` — Golden Section (1.618), Root-2 (1.414),
+   or Perfect Fifth (1.5) work well for image grids
+2. Derive the primary split: e.g. Golden Section on 12 columns = ~7.4/4.6, round to 7/5
+3. Subdivide the minor portion by the same ratio for the next row, or invert the split
+4. Offsets and staggers should come from the spacing system (multiples of 8px), not arbitrary
+
+**Example — Golden Section mosaic on 1312px content width (1440 - 128px margins):**
+```
+Row 1:  810px (major) + 16px gap + 486px (minor)     — 1.667:1
+Row 2:  486px (minor) + 16px gap + 810px (major)     — inverted
+Row 3:  500px + 16px + 300px + 16px + 180px           — subdivide further
+```
+
+The key: proportions should *rhyme* across rows. When a viewer can't articulate why a
+mosaic feels composed rather than scattered, it's usually because the proportions share
+a mathematical ancestor. [added after a session where improvised mosaic splits produced
+a scattered-feeling grid]
+
+**Stagger rule:** Do not use vertical offsets (margin-top, margin-bottom) to stagger
+images within a mosaic row. Tops should align within a row. Asymmetry comes from width
+proportions (Golden Section splits) and height variation between rows — not from offsets
+within a row. Staggers look like broken alignment, not intentional movement. [added
+after a 48px stagger was removed because it looked like a bug]
 
 ---
 

@@ -38,7 +38,11 @@ Before choosing any typeface, engage with the content:
    never start from the same typeface.
 2. **Name 3 candidate families with reasoning.** No single default. Each candidate should
    respond to the content's character differently. Write one sentence per candidate
-   explaining why it fits.
+   explaining why it fits. **Fonts already loaded in the document get no preference** —
+   they are candidates like any other. If the content character points toward a different
+   classification than what's loaded, follow the content. [added after a session where a
+   loaded grotesque was selected over a geometric sans for a precision hardware product
+   because it was convenient, not because it was right]
 3. **At least one candidate must feel risky or unexpected.** If all three candidates are
    from the same genre (e.g. three condensed sans-serifs, three geometric sans), the
    process hasn't worked — it's producing variations on the same idea, not genuinely
