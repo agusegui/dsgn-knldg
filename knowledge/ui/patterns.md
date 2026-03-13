@@ -141,9 +141,6 @@ Patterns that currently signal "template" or "AI-generated" to trained eyes:
   Users have learned to ignore these — they signal decoration, not information.
 - **Centered-everything layouts** where every section is a centered headline, centered
   paragraph, centered button. See `../layout/composition.md` on asymmetry.
-- **Oversized ghost numbers** ("01" at 80–120px in a near-background color) used as
-  decorative anchors. They add visual weight without adding information. If a number
-  isn't serving hierarchy or navigation, it's decoration pretending to be design.
 
 The antidote isn't avoiding these entirely — it's noticing when they're being used out of
 habit rather than intention, and asking whether a different choice would serve the content

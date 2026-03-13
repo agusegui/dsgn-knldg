@@ -287,6 +287,22 @@ agent-generated designs. They communicate "we have three things" without signali
 which matters most. If the items genuinely are equal, vary the *internal* treatment
 (one gets an image, the others are text-only) to avoid visual monotony.
 
+### Peer items need equal visual weight
+
+When content items are genuine peers (6 capabilities, 4 pricing tiers, 5 team members),
+the layout must give them equal visual weight — even if the arrangement is asymmetric.
+Asymmetry in a mosaic grid (varied widths, different crops) is fine because each item
+still gets its own image and label at the same typographic level. But giving one item a
+hero treatment (larger type, more description, a decorative number) while the others get
+compact treatment creates false hierarchy — it tells the reader this item matters more
+when the content says they're equal.
+
+**The test:** if you swapped the content between the "hero" slot and a "secondary" slot,
+would the design still make sense? If not, the layout is imposing hierarchy the content
+doesn't have. [added after a session where an "editorial cascade" layout gave one of six
+equal capabilities a hero split with an oversized number, making it feel like the primary
+feature when all six were peers]
+
 ### Asset character drives composition
 
 The same content with different images demands different layouts. Clinical product shots
