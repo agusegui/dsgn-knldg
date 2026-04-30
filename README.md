@@ -35,7 +35,12 @@ The system is **descriptive, not prescriptive**. It presents options with contex
 |-------|-------------|
 | `/scale [context]` | Derives a complete type scale and spacing system from a ratio |
 | `/compose [context]` | Plans layout composition — section variety, layout sketches, grid choice |
-| `/palette [context]` | Derives a color palette from content character |
+| `/palette [context]` | Brand-track palette — mood-driven, scene-derived. For product/UI palettes, see `/oklch-skill` below |
+
+### Optional — product-track color
+| Skill | What it does |
+|-------|-------------|
+| `/oklch-skill` | Systematic OKLCH palettes — perceptually-uniform ramps, contrast remediation, dark mode, Tailwind v4 themes. **Created by [Jakub Krehel](https://github.com/jakubkrehel/oklch-skill)** (MIT). Install separately: `npx skills add jakubkrehel/oklch-skill`. See `knowledge/color/oklch.md` for when it applies. |
 
 ## Knowledge modules
 
@@ -51,10 +56,24 @@ knowledge/
   layout/
     composition.md           Content-driven composition, component architecture, anti-patterns
     grids.md                 Grid types and responsive behavior
+  color/
+    README.md                Module overview — two-philosophy color, routed by track
+    mood-scene.md            Brand-track: mood-driven, scene-derived palettes
+    oklch.md                 Product-track: pointer to /oklch-skill (Jakub Krehel)
+    sources.md               External references (oklch-skill, oklch.fyi, WCAG, APCA)
   ui/
     states.md                Component states (hover, focus, disabled, loading, error)
     patterns.md              Interaction patterns, accessibility universals, visual cliches
 ```
+
+## Tracks
+
+The system distinguishes two design tracks early in `/design`:
+
+- **Product / software** — SaaS UI, design systems, dashboards, Tailwind themes. Color is systematic; OKLCH is the right tool.
+- **Brand / editorial / print / content / marketing** — posters, editorial spreads, brand systems, marketing pages. Color is mood-driven and scene-derived.
+
+Step 1 of `/design` infers the track from the brief and routes Step 5 (color) accordingly. Future sub-skills will likely fork along the same axis.
 
 ## How the knowledge loop works
 
@@ -74,3 +93,9 @@ These are in CLAUDE.md but worth knowing:
 - **3-candidate process** — typography selection always considers 3 options with reasoning, never defaults to a familiar face
 - **Component architecture** — establish 2-4 reusable component types before building, vary arrangement not structure
 - **Clone hygiene** — after cloning any canvas node, immediately audit and restyle inherited text
+
+## Acknowledgments
+
+The product-track color philosophy in this system is delivered by the [`oklch-skill`](https://github.com/jakubkrehel/oklch-skill) Claude Code skill, created and maintained by **[Jakub Krehel](https://github.com/jakubkrehel)** (MIT). Jakub also built [oklch.fyi](https://oklch.fyi), the interactive reference that makes OKLCH approachable. This system is meaningfully better because his work is open and well-documented — thank you.
+
+When OKLCH applies (product-track work, palette audits, Tailwind themes), `/design` delegates to `/oklch-skill` rather than duplicating its content. The decision rules and integration points are documented in [`knowledge/color/oklch.md`](knowledge/color/oklch.md).

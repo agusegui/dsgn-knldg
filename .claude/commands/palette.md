@@ -1,95 +1,101 @@
-Derive a color palette from content character — background, text, accent, and supporting roles with hex values.
+Derive a brand-track color palette from content character — mood word, scene reference, and 5–6 hex values with named roles.
 
-Use this skill when choosing colors for a design, building a palette from scratch, or when a design needs color direction. Also useful when the current palette feels disconnected from the content's tone or when warm/cool temperature is mismatched.
+Use this skill for **brand, editorial, print, content, and marketing work** — anywhere the palette should carry cultural or emotional reference. The method is mood-driven and scene-derived: commit to a mood, derive every color from a real object in that scene.
+
+> **For product / software / design system work**, use [`/oklch-skill`](https://github.com/jakubkrehel/oklch-skill) by Jakub Krehel instead — install with `npx skills add jakubkrehel/oklch-skill`. OKLCH gives systematic ramps, perceptual uniformity, and accessibility-grade contrast that mood palettes can't. See `knowledge/color/oklch.md` for the decision rules.
 
 ## Arguments
 `$ARGUMENTS` — content character description or design context. Examples:
 - "warm editorial, literary tone, cream-paper feeling"
 - "dark cinematic brand page for a film studio"
-- "clean SaaS product, professional but not cold, blue-leaning"
 - "brutalist portfolio, high contrast, raw"
+- "candlelit chapel mood for a wine label"
 
-Can also include constraints: "dark mode", "must include brand blue #2563EB", "accessible on white backgrounds".
+Can also include constraints: "must include brand color #2563EB", "accessible on warm cream backgrounds".
 
 ## Your task
 
-### Step 1 — Read content temperature
+### Step 1 — Confirm the track
 
-Before picking any colors, assess the content's emotional temperature:
+If the brief is clearly product/UI/design-system work, stop and redirect to `/oklch-skill`. This skill is for brand, editorial, print, content, and marketing work specifically.
 
-- **Warm** (cream, amber, terracotta, warm grays) — literary, intimate, grounded, organic
-- **Cool** (blue-gray, slate, steel, cool whites) — technical, precise, institutional, modern
-- **Neutral** (true grays, balanced whites) — editorial, versatile, unobtrusive
-- **High contrast** (near-black + white, minimal color) — dramatic, brutalist, authoritative
-- **Saturated** (strong hues, vivid accents) — energetic, playful, commercial
+### Step 2 — Commit to a mood word
 
-The temperature must be consistent across the entire palette. A warm cream background with cool gray text looks subtly wrong — the grays need to be pulled warm too.
+A mood word is a physical condition or register: mineral, candlelit, bookish, foggy, alpine, brutalist, signage, hypertext, tropical, nocturnal, chapel, gallery, editorial, etc. The full mood library lives in the Paper MCP guide ("Design Quality" section).
 
-### Step 2 — Consult the rules
+Pick **anything other than your first instinct**. First-instinct picks regress to the same few answers. State 3–5 mood candidates, then commit to one.
 
-Read `knowledge/typography/rules.md` § "Color and contrast" for:
-- Near-black vs. pure black guidance
-- Warm background → warm text color matching
-- Secondary text contrast ratios
+### Step 3 — Derive every color from a real scene
+
+For the chosen mood, name the scene and the specific objects in it. Examples:
+- "mineral" — limestone dust, weathered slate, oxidized copper, wet stone
+- "bookish" — plaster, oak pew, ink, candle flame, foxed paper
+- "candlelit" — warm amber, oxblood, hot wax, soot
+
+If you can't name a real reference for a role, the palette is abstract and will feel glued together.
+
+### Step 4 — Consult the rules
+
+Read `knowledge/color/mood-scene.md` for:
+- Role definitions (background, text, secondary, accent, dark, surface)
+- Color and contrast principles (near-black vs. pure black, secondary text limits, warm-cool matching)
+- Pairings to avoid (recent clichés)
+- Temperature consistency
 
 Read `knowledge/ui/patterns.md` § "Universals" for:
-- WCAG AA contrast requirements (4.5:1 normal text, 3:1 large text)
-- Color independence — never use color as sole information carrier
+- WCAG AA contrast (4.5:1 normal, 3:1 large)
+- Color independence
 
-### Step 3 — Build the palette
+### Step 5 — Build the palette
 
-Define 5-6 colors with named roles:
+Define 5–6 colors with named roles, each tied to a specific object reference:
 
-| Role | Purpose | Guidance |
-|------|---------|----------|
-| **Background** | Dominant surface | Sets the temperature. Pure white (#FFF) is rarely the best choice — slightly warm (#FAFAF7, #F8F6F1) or cool (#F5F7FA) backgrounds are more refined. |
-| **Text** | Primary reading | Near-black, not #000 unless intentional. Pull toward palette temperature: warm (#1A1814) or cool (#1A1D21). |
-| **Secondary** | Captions, metadata | 40-50% lighter than text. Must pass 4.5:1 on background for small text. Warm (#8A857D) or cool (#7A7F87). |
-| **Accent** | Links, CTAs, emphasis | The strongest chromatic moment. Should feel earned, not random. One accent color is usually enough. |
-| **Dark** | Alternate sections, overlays | For dark-on-light contrast sections. Dark sections need slightly lighter text weight — optical weight differs on dark backgrounds. |
-| **Surface** | Cards, panels, inputs | Subtle step from background. Should be distinguishable but not competing. Usually 2-4% darker/lighter than background. |
+| Role | Purpose |
+|------|---------|
+| **Background** | Dominant surface — sets the temperature |
+| **Text** | Primary reading color (near-black, not #000 unless intentional) |
+| **Secondary** | Captions, metadata, muted elements |
+| **Accent** | The strongest chromatic moment — earned, not random |
+| **Dark** | Alternate sections, overlays |
+| **Surface** | Subtle step from background for cards/panels |
 
-### Step 4 — Verify contrast ratios
+### Step 6 — Verify contrast and temperature
 
-For each text-on-background combination, verify WCAG AA compliance:
-- Text on Background: must be ≥ 4.5:1
-- Secondary on Background: must be ≥ 4.5:1 for body, ≥ 3:1 for large text only
-- Text on Dark: must be ≥ 4.5:1
-- Text on Surface: must be ≥ 4.5:1
+For each text-on-background combination, verify WCAG AA:
+- Text on Background: ≥ 4.5:1
+- Secondary on Background: ≥ 4.5:1 body, ≥ 3:1 large
+- Text on Dark: ≥ 4.5:1
+- Text on Surface: ≥ 4.5:1
 
-If a combination fails, adjust the lighter color darker or the darker color lighter until it passes.
+If a combination fails, adjust the lighter color darker or the darker lighter until it passes.
 
-### Step 5 — Temperature consistency check
-
-Review all colors together:
-- Do the grays match the background temperature? (Warm bg → warm grays, cool bg → cool grays)
-- Does the accent feel like it belongs in this palette, or is it from a different emotional register?
-- In dark sections, is the text warm enough if the light sections use warm text?
+Then check temperature consistency: warm grounds need warm grays, cool grounds need cool grays, accents must belong to the same emotional register.
 
 ---
 
 ## Output format
 
 ```
-COLOR PALETTE
+COLOR PALETTE — mood-driven (brand track)
+Mood word: [mood]
+Scene reference: [actual scene the palette derives from]
 Temperature: [warm / cool / neutral / high-contrast]
-Derived from: [content reasoning]
 
-Background:   #______ — [description]
-Text:         #______ — [description]
-Secondary:    #______ — [description]
-Accent:       #______ — [description]
-Dark:         #______ — [description]
-Surface:      #______ — [description]
+Background:   #______ — [object reference]
+Text:         #______ — [object reference]
+Secondary:    #______ — [object reference]
+Accent:       #______ — [object reference]
+Dark:         #______ — [object reference]
+Surface:      #______ — [object reference]
 
 CONTRAST CHECK
-Text on Background:    [ratio]:1 [pass/fail]
+Text on Background:      [ratio]:1 [pass/fail]
 Secondary on Background: [ratio]:1 [pass/fail]
-Text on Dark (inverted): [ratio]:1 [pass/fail]
-Accent on Background:  [ratio]:1 [pass/fail]
+Text on Dark:            [ratio]:1 [pass/fail]
+Accent on Background:    [ratio]:1 [pass/fail]
 
 TEMPERATURE NOTE
 [One sentence on temperature consistency across the palette]
 ```
 
-This output plugs directly into the design brief (Step 5) when used within `/design`.
+This output plugs directly into the `/design` brief at Step 5.

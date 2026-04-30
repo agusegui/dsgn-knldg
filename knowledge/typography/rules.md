@@ -142,6 +142,10 @@ A smaller, bolder label can outrank a larger, lighter heading when you want that
 
 ## Color and contrast
 
+> Color knowledge has moved to its own module: [`../color/`](../color/). The brand-track approach (mood-driven, scene-derived palettes) lives in [`../color/mood-scene.md`](../color/mood-scene.md). The product-track approach (systematic OKLCH ramps) lives in [`../color/oklch.md`](../color/oklch.md).
+
+The type-color rules below remain here because they are *typographic* — they're about how text behaves on a colored ground, not how palettes are generated.
+
 **Body text is usually better in near-black than pure black (#000000) on white.**
 Pure black creates harsher contrast that can fatigue readers over long passages.
 #1A1A1A, #222, or a slightly warm near-black is gentler. That said, pure black is a
@@ -153,6 +157,8 @@ feel wrong for the content.
 
 **Warm backgrounds need warm text colors.**
 A cool gray (#777) on a warm cream background looks slightly wrong. Pull the gray toward warm (#7A7570 instead of #777777).
+
+For palette derivation, role assignment, and the temperature-consistency check across the whole palette, consult [`../color/mood-scene.md`](../color/mood-scene.md) (brand track) or [`../color/oklch.md`](../color/oklch.md) (product track) — not this file.
 
 ---
 

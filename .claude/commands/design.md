@@ -28,6 +28,23 @@ Before opening any knowledge file, read the content (or description) and write d
 
 This drives every subsequent decision. Do not rush it — a misread here cascades through every choice below.
 
+### Track inference
+
+After characterizing the content, infer the **design track** — this gates which color philosophy and which sub-skills apply later:
+
+- **Product / software** — SaaS UI, dashboards, design systems, mobile/web apps, Tailwind themes, product marketing pages where the surface is the product. Color: systematic, OKLCH-suitable.
+- **Brand / editorial / print / content / marketing** — posters, editorial spreads, brand systems, decks, magazine-style content, marketing where the visual carries cultural or emotional reference. Color: mood-driven, scene-derived.
+
+**Always state your inference and the signal that drove it**, then proceed unless the user corrects you. Examples:
+
+> "I read this as **product track** because the brief mentions design tokens, dashboards, and a Tailwind theme."
+
+> "I read this as **brand track** because this is a poster for a literary press with a 1960s reference."
+
+For genuinely ambiguous briefs (e.g. a SaaS marketing landing page where brand expression matters as much as product clarity), ask the user explicitly which track to commit to.
+
+If the track is **product**, surface this one-line note and continue: *"OKLCH may apply at Step 5. The canonical tool is `/oklch-skill` by Jakub Krehel — install with `npx skills add jakubkrehel/oklch-skill` if not present. See `knowledge/color/oklch.md` for when it applies."*
+
 ---
 
 ## Step 2 — Typography
@@ -87,24 +104,55 @@ Or run `/compose [content character + medium]` to plan the full composition.
 
 ---
 
-## Step 5 — Color palette
+## Step 5 — Color palette (router by track)
 
-**Consult:** `knowledge/typography/rules.md` § Color and contrast (for temperature matching). Future: `knowledge/color/` module.
+**Consult:** `knowledge/color/README.md` for the philosophy split. Then route by track from Step 1.
 
-Derive 5-6 colors with named roles from the content character, not from habit:
+### Brand / editorial / print / content / marketing track
 
-- **Background** — the dominant surface
-- **Text** — primary reading color (near-black, not #000 unless intentional)
-- **Secondary text** — captions, metadata, muted elements
-- **Accent** — links, CTAs, emphasis
-- **Dark/alternate** — for section contrast (dark sections need different type treatment)
-- **Card/surface** — secondary background for cards, panels
+**Consult:** `knowledge/color/mood-scene.md`. Or run `/palette [content character keywords]`.
 
-Warm content needs warm colors throughout — a cool gray (#777) on a warm cream background looks wrong. Pull grays toward the palette's temperature.
+Method:
+1. Commit to a **mood word** — a physical condition or register (mineral, candlelit, bookish, signage, etc). The full mood library lives in the Paper MCP guide.
+2. Derive every color from a specific object in that scene. If you can't name a real reference for a role, the palette is abstract and will feel glued together.
+3. Define 5–6 colors with named roles (background, text, secondary, accent, dark, surface).
+4. Verify temperature consistency — warm grounds need warm grays.
+5. Verify WCAG AA contrast (4.5:1 normal, 3:1 large).
 
-Or run `/palette [content character keywords]` when that skill is available.
+**Output for brief:** mood word, scene reference, 5–6 hex values with named roles + object references, contrast check.
 
-**Output for brief:** 5-6 hex values with named roles and reasoning.
+### Product / software / design system track
+
+**Consult:** `knowledge/color/oklch.md` for the integration rules and decision logic.
+
+This system **delegates** to `/oklch-skill` (by Jakub Krehel — `https://github.com/jakubkrehel/oklch-skill`) for systematic palettes. `/design` provides:
+
+- The **base color(s)** — derived from content character or supplied by the brand
+- **Role assignment** — which step in the ramp serves background, surface, text, accent
+- **Integration with the brief**
+
+`/oklch-skill` provides:
+
+- The lightness ramp (50–950) with perceptual uniformity
+- Multi-hue palettes with consistent chroma percentage
+- Dark mode derivation
+- Contrast remediation via L
+- Gamut clamping and Tailwind v4 `@theme` patterns
+
+**Routing logic:**
+
+| Situation | Action |
+|---|---|
+| `/oklch-skill` is available in the skills list | Hand off explicitly: "Use `/oklch-skill` to generate the ramp from base color [X] at chroma [Y%]." |
+| `/oklch-skill` not installed | Mention once: "OKLCH is the right tool here — install with `npx skills add jakubkrehel/oklch-skill`." Then offer the mood-driven fallback or proceed with manual oklch values from `knowledge/color/oklch.md` reference patterns. |
+| User provides an existing palette to audit | Always point to `/oklch-skill` regardless of original track. Its hue-drift, contrast-via-L, and gamut diagnostics are the right tools. |
+
+**Output for brief:** base color(s), role assignment for each step, palette ramp output (or pointer to `/oklch-skill` output), contrast verification.
+
+### Universals (both tracks)
+
+- Color is never the sole information carrier — pair with shape, weight, position, label.
+- WCAG AA contrast: 4.5:1 normal text, 3:1 large text and non-text UI.
 
 ---
 
@@ -147,11 +195,11 @@ Only required when the design includes buttons, forms, navigation, or interactiv
 
 Compile all outputs into a single brief. Present it to the user before building. The brief must contain:
 
-1. **Content character** (Step 1)
+1. **Content character** (Step 1) — including the inferred **track** (product or brand) and the signal that drove the inference
 2. **Typography** — pairing, reasoning, form model, scale context (Step 2)
 3. **Scale & spacing** — ratio, base size, derived scale table, spacing tokens (Step 3)
 4. **Composition** — approach, section plan with layout sketches, scale peak, grid (Step 4)
-5. **Color palette** — hex values with roles (Step 5)
+5. **Color palette** — for brand track: mood word + scene + hex with roles. For product track: base color, role assignment, and either OKLCH ramp output (if `/oklch-skill` available) or a clear note that it would benefit from one. (Step 5)
 6. **Asset inventory** — assets with roles (Step 6)
 7. **UI patterns** — state/accessibility decisions (Step 7, if applicable)
 
@@ -211,3 +259,6 @@ Call `finish_working_on_nodes`.
 - Layout sketch missing or uses adjectives ("cinematic", "clean") instead of spatial relationships ("overlaps", "bleeds full-width", "offset 2 columns right")
 - Same pairing, spacing, or palette reused across unrelated projects
 - No reference to any `knowledge/` file in the reasoning
+- **Track not stated at Step 1** — the brief jumps straight to typography without committing to product or brand
+- **Mood-driven palette applied to a product UI brief** (e.g. SaaS dashboard styled with a candlelit-amber palette and no perceptual ramp)
+- **OKLCH applied to editorial / poster / brand work** where the mood-and-scene method was the right tool

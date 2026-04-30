@@ -51,7 +51,11 @@ knowledge/
     states.md
     patterns.md
     sources.md
-  color/             (future)
+  color/             <- two-philosophy color module (track-aware)
+    README.md            <- module overview + routing
+    mood-scene.md        <- brand-track: mood-driven, scene-derived palettes
+    oklch.md             <- product-track: pointer to /oklch-skill (Jakub Krehel)
+    sources.md
   hierarchy/         (future)
 ```
 
@@ -128,6 +132,7 @@ This applies even when the user criticizes a design — "improve this" means ite
 
 **Step 1: Content character** *(from brief or context)*
 - Extract and write down: tone, audience, emotional register, era, medium, cultural context
+- **Infer the design track** — product/software OR brand/editorial/print/marketing. State the inference and the signal that drove it; ask the user to confirm only if genuinely ambiguous. The track gates which color philosophy applies later (see Step 5).
 - This drives every subsequent decision — do not rush it
 
 **Step 2: Typography** → `knowledge/typography/`
@@ -164,11 +169,13 @@ This applies even when the user criticizes a design — "improve this" means ite
 - Consult `grids.md` → what grid type fits? (manuscript / column / modular / hierarchical)
 - **Output for brief:** Compositional approach, layout sketch, scale peak, grid choice
 
-**Step 5: Color palette** *(future module — use judgment + content character)*
-- 5–6 hex values with named roles (background, text, accent, secondary, dark, card)
-- Derive from content, brand assets, and imagery — not from habit
-- Warm backgrounds need warm text colors (see `typography/rules.md` § Color and contrast)
-- **Output for brief:** Palette with roles
+**Step 5: Color palette** → `knowledge/color/` *(track-aware router)*
+- Read `knowledge/color/README.md` for the philosophy split, then route by the track from Step 1.
+- **Brand track** → consult `knowledge/color/mood-scene.md` or run `/palette`. Mood word + scene reference + 5–6 hex with object-grounded roles.
+- **Product track** → consult `knowledge/color/oklch.md`. Delegate to `/oklch-skill` (by Jakub Krehel — `npx skills add jakubkrehel/oklch-skill`) for the systematic ramp. This system supplies the base color and role assignment; OKLCH supplies the math, contrast remediation, and gamut work.
+- **Audit mode** — when the user provides an existing palette to review, point to `/oklch-skill` regardless of track origin.
+- Warm backgrounds need warm text colors (see `typography/rules.md` § Color and contrast for type-color rules that apply to both tracks).
+- **Output for brief:** Track-tagged palette. Brand: mood + scene + hex with roles. Product: base color, role assignment, ramp output (or note pointing to `/oklch-skill`).
 
 **Step 6: Asset inventory** *(from canvas or user context)*
 - Inventory all available images, illustrations, icons, patterns
