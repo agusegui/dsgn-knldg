@@ -1,7 +1,8 @@
 # design-principles
 
-A modular design knowledge system for teaching agents how to design better.
-Built on curated knowledge, mathematical foundations, and Paper MCP canvas integration.
+An open design language. A single installable Claude Code skill, forkable as a brand-specific design language for any project, with a clean override layer for local commitments.
+
+The skill bundle lives at `skills/design-principles/`. Its master orchestrator is `skills/design-principles/SKILL.md` — that file is what auto-triggers when design work appears in conversation, and it is the canonical entry point. CLAUDE.md (this file) gives ambient guidance to Claude when working *in this repo* (developing the skill itself).
 
 ## System philosophy
 
@@ -30,33 +31,43 @@ principles. Universals are rare — if you're unsure, it's a principle.
 
 ---
 
-## Module structure
+## Repository structure
 
 ```
-knowledge/
-  foundations/       <- math: scales, ratios, spacing systems
-    math.md
-  typography/        <- pairings, rules, classifications, contexts
-    pairings.json
-    rules.md
-    classifications.md
-    typesetting.md
-    graphic-contexts.md
-    sources.md
-  layout/            <- grids, spacing, composition, responsive
-    grids.md
-    composition.md
-    sources.md
-  ui/                <- component states, interaction patterns, visual awareness
-    states.md
-    patterns.md
-    sources.md
-  color/             <- two-philosophy color module (track-aware)
-    README.md            <- module overview + routing
-    mood-scene.md        <- brand-track: mood-driven, scene-derived palettes
-    oklch.md             <- product-track: pointer to /oklch-skill (Jakub Krehel)
-    sources.md
-  hierarchy/         (future)
+skills/design-principles/        <- the skill bundle (the install unit)
+  SKILL.md                       <- master orchestrator + auto-trigger surface
+  core/                          <- universal design knowledge
+    foundations/math.md          <- scales, ratios, spacing systems
+    typography/                  <- pairings, rules, classifications, contexts
+      pairings.json
+      rules.md
+      classifications.md
+      typesetting.md
+      graphic-contexts.md
+      sources.md
+    layout/                      <- composition, grids
+      composition.md
+      grids.md
+      sources.md
+    ui/                          <- component states, patterns, universals
+      states.md
+      patterns.md
+      sources.md
+    color/                       <- track-aware color (brand vs product)
+      README.md                  <- routing
+      mood-scene.md              <- brand-track palettes
+      oklch.md                   <- product-track pointer to /oklch-skill (Jakub Krehel)
+      sources.md
+    mobile.md                    <- single-file overlay: mobile-specific universals
+    brand.md                     <- single-file overlay: brand identity construction
+  modes/                         <- workflow definitions the orchestrator routes to
+    design.md, design-review.md, type-pair.md, type-specimen.md,
+    type-direct.md, scale.md, compose.md, palette.md
+  local/                         <- YOUR overrides. Empty by default.
+                                    Files here win over equivalent core/ files.
+.claude/commands/                <- slash-command shims pointing to modes/
+README.md                        <- public-facing: install, fork, three usage modes
+CLAUDE.md                        <- this file: dev-time guidance for editing the skill
 ```
 
 ### Module relationships
@@ -69,7 +80,29 @@ knowledge/
 - **UI** concerns how interactive elements behave — component states, interaction
   patterns, and visual awareness. It intersects with layout (density, affordances)
   and typography (labels, error messages) but focuses on behavior and response.
+- **Color** is a track-aware module — brand-track work uses mood-driven palettes,
+  product-track work delegates to OKLCH (`/oklch-skill` by Jakub Krehel).
+- **Mobile** is a single-file overlay that captures what changes when the canvas is
+  390px and the input is a thumb — touch targets, safe areas, type minimums, sheet
+  anatomy. Consult it on top of the other modules whenever a design is mobile.
+- **Brand** is a single-file overlay covering identity construction — wordmark, app
+  icon, lockup, per-surface direction, voice. Consult during the brand pass, before
+  building product UI.
 - Each module tracks its own **sources**.
+
+### The override rule — `local/` always wins over `core/`
+
+Before consulting any `core/` file, check whether a corresponding file exists in `local/`. If it does, **use the local version.** This is the entire mechanism that makes the skill brand-aware after a fork or bootstrap.
+
+| Decision | First check | Fall back to |
+|---|---|---|
+| Color palette | `local/palette.md` | `core/color/mood-scene.md` (mood-driven) |
+| Type pairing | `local/type.md` | 3-candidate process via `core/typography/` |
+| Voice / copy tone | `local/voice.md` | inferred from content character |
+| UI components | `local/components.md` | `core/ui/` patterns |
+| Layout signatures | `local/layout.md` | `core/layout/composition.md` |
+| Brand overview | `local/overview.md` | inferred at Step 1 of `modes/design.md` |
+| Logos, brand assets | `local/assets/` | request from user / placeholder |
 
 ---
 
@@ -124,7 +157,8 @@ This applies even when the user criticizes a design — "improve this" means ite
 ### Pre-design knowledge pass — mandatory
 
 > **Universal:** Before writing any HTML for a new design, complete the full knowledge pass
-> below. Each step consults a specific module in the `knowledge/` folder. The design brief
+> below. Each step consults a specific module in `skills/design-principles/core/` — and checks
+> `skills/design-principles/local/` first for any committed brand decision. The design brief
 > is the output. Do not start building until the brief is complete.
 >
 > This system only adds value when every layer is engaged. Skipping a module produces
@@ -135,7 +169,7 @@ This applies even when the user criticizes a design — "improve this" means ite
 - **Infer the design track** — product/software OR brand/editorial/print/marketing. State the inference and the signal that drove it; ask the user to confirm only if genuinely ambiguous. The track gates which color philosophy applies later (see Step 5).
 - This drives every subsequent decision — do not rush it
 
-**Step 2: Typography** → `knowledge/typography/`
+**Step 2: Typography** → `skills/design-principles/core/typography/`
 - Read `rules.md` § "Typeface selection — derive from content, not habit"
 - Consult `pairings.json` — search by mood tags, use-case tags, and classification
 - Or run `/type-pair` with the content character keywords from Step 1
@@ -148,7 +182,7 @@ This applies even when the user criticizes a design — "improve this" means ite
 - **Output for brief:** Pairing name, pairings.json ID or /type-pair source, reasoning,
   form model analysis, typesetting scale
 
-**Step 3: Scale & spacing** → `knowledge/foundations/math.md`
+**Step 3: Scale & spacing** → `skills/design-principles/core/foundations/math.md`
 - Choose a **scale ratio** based on the content's emotional register and hierarchy depth
   (e.g. Perfect Fourth 1.333 for strong hierarchy, Golden Section 1.618 for dramatic)
 - Derive the full **type scale** from base size + ratio (round to whole pixels)
@@ -156,7 +190,7 @@ This applies even when the user criticizes a design — "improve this" means ite
   same base unit or an 8px spatial grid
 - **Output for brief:** Ratio name + value, base size, derived scale table, spacing values
 
-**Step 4: Layout & composition** → `knowledge/layout/`
+**Step 4: Layout & composition** → `skills/design-principles/core/layout/`
 - Consult `composition.md` → answer the two core questions:
   1. What is the content's job? (persuade / inform / orient / impress)
   2. Who is reading, and how? (scanning / studying / comparing / feeling)
@@ -169,10 +203,10 @@ This applies even when the user criticizes a design — "improve this" means ite
 - Consult `grids.md` → what grid type fits? (manuscript / column / modular / hierarchical)
 - **Output for brief:** Compositional approach, layout sketch, scale peak, grid choice
 
-**Step 5: Color palette** → `knowledge/color/` *(track-aware router)*
-- Read `knowledge/color/README.md` for the philosophy split, then route by the track from Step 1.
-- **Brand track** → consult `knowledge/color/mood-scene.md` or run `/palette`. Mood word + scene reference + 5–6 hex with object-grounded roles.
-- **Product track** → consult `knowledge/color/oklch.md`. Delegate to `/oklch-skill` (by Jakub Krehel — `npx skills add jakubkrehel/oklch-skill`) for the systematic ramp. This system supplies the base color and role assignment; OKLCH supplies the math, contrast remediation, and gamut work.
+**Step 5: Color palette** → `skills/design-principles/core/color/` *(track-aware router)*
+- Read `skills/design-principles/core/color/README.md` for the philosophy split, then route by the track from Step 1.
+- **Brand track** → consult `skills/design-principles/core/color/mood-scene.md` or run `/palette`. Mood word + scene reference + 5–6 hex with object-grounded roles.
+- **Product track** → consult `skills/design-principles/core/color/oklch.md`. Delegate to `/oklch-skill` (by Jakub Krehel — `npx skills add jakubkrehel/oklch-skill`) for the systematic ramp. This system supplies the base color and role assignment; OKLCH supplies the math, contrast remediation, and gamut work.
 - **Audit mode** — when the user provides an existing palette to review, point to `/oklch-skill` regardless of track origin.
 - Warm backgrounds need warm text colors (see `typography/rules.md` § Color and contrast for type-color rules that apply to both tracks).
 - **Output for brief:** Track-tagged palette. Brand: mood + scene + hex with roles. Product: base color, role assignment, ramp output (or note pointing to `/oklch-skill`).
@@ -186,7 +220,7 @@ This applies even when the user criticizes a design — "improve this" means ite
   Reading surfaces → clarity-first | Impression surfaces → impact-first | Functional → density
 - **Output for brief:** Asset list with roles, per-format direction if multi-deliverable
 
-**Step 7: UI patterns** → `knowledge/ui/` *(if design includes interactive elements)*
+**Step 7: UI patterns** → `skills/design-principles/core/ui/` *(if design includes interactive elements)*
 - Consult `states.md` → which states matter for this design's components?
   (default, hover, focus, active, disabled, loading, error, success)
 - Consult `patterns.md` → check universals (contrast ratios, color independence,
@@ -217,7 +251,7 @@ The brief is the output of the knowledge pass. It must contain:
 - No scale ratio mentioned — sizes chosen by "feel" instead of derived from math
 - Compositional approach not stated — sections default to centered stacks
 - Same pairing, spacing, or palette reused across unrelated projects
-- No reference to any `knowledge/` file in the reasoning
+- No reference to any `core/` file in the reasoning
 - Layout sketch missing or uses only adjectives ("cinematic", "clean") instead of
   spatial relationships ("overlaps", "bleeds full-width", "offset 2 columns right")
 
@@ -271,13 +305,13 @@ After writing any text block, **before moving on to the next group:**
    balance a headline breaks vertical alignment with other content in the same column.
    Use CSS `text-wrap` instead — it adapts without side effects.
 
-These rules exist in `knowledge/typography/typesetting.md`. Consult that file if unsure.
+These rules exist in `skills/design-principles/core/typography/typesetting.md`. Consult that file if unsure.
 
 ---
 
 ## Pairing data schema
 
-When adding to `typography/pairings.json`, use this shape:
+When adding to `skills/design-principles/core/typography/pairings.json`, use this shape:
 
 ```json
 {

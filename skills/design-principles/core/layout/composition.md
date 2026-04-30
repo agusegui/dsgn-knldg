@@ -318,6 +318,51 @@ The layout decision depends on what images you have, not just what content you h
 [added after a session where switching from product shots to atmospheric photography
 completely changed the right approach from card+list to mosaic]
 
+### Variant axes — design every component on three axes
+
+Once a component vocabulary is named, each component is defined along three axes. This
+is the design-thinking equivalent of React props — a working spec, not source code, but
+designed so it maps cleanly when the design lands in code.
+
+| Axis | Typical values | What it controls |
+|------|---------------|------------------|
+| **Size** | sm / md / lg (or numeric: 32 / 40 / 48) | Padding, type size, hit area, icon size |
+| **Tone** | primary / secondary / ghost / destructive | Background, text color, border treatment |
+| **State** | default / hover / focus / active / disabled / loading / error / success | See `../ui/states.md` for the full spectrum and which states matter per component |
+
+Add a fourth axis only when the component genuinely needs it (e.g. selected/unselected
+for a chip, expanded/collapsed for a row). Resist the urge to multiply variants — most
+components need 2 sizes, 2 tones, and the standard state set.
+
+**Render variants visibly in the system spec.** Show every (size × tone) intersection
+side-by-side with labels — not a single "Button" example. The variant matrix is the
+spec. A reader should be able to answer "what does the small ghost button look like" by
+pointing, not by interpolating.
+
+### Slots — composition through named openings
+
+A slot is a named opening in a component where caller content goes. Slots are how
+components stay reusable without becoming a soup of props.
+
+Common slots on mobile components:
+- **Leading** — icon, avatar, thumbnail, indicator (left side)
+- **Trailing** — chevron, action, badge, count (right side)
+- **Title** — primary label
+- **Subtitle / meta** — secondary label or metadata row
+- **Action** — interactive element distinct from the row's own tap target
+
+Per row hygiene: leading and trailing slots take **fixed widths with `flexShrink: 0`**
+even when empty. This is the same vertical-lane rule from the Paper guide — repeated
+rows that rely on `gap` alone for column alignment will break the moment one row's
+content varies.
+
+**Slot rules:**
+- Components define their slots; callers fill them. Don't invent slot names per usage.
+- Empty slots collapse to zero or hold a fixed-width placeholder — they never reflow
+  the rest of the row.
+- A slot with two purposes (e.g. "this trailing slot is sometimes a badge and sometimes
+  an action") is two slots; name them differently or split the component.
+
 ### Asset integration — images inside components, not beside them
 
 Product images embedded *inside* a card or content block feel structural — the image
